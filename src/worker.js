@@ -69,6 +69,10 @@ Offer your utterance now.`;
       temperature: 1.0
     });
 
+    // Log the raw response shape for debugging
+    console.log("AI raw result type:", typeof result);
+    console.log("AI raw result:", JSON.stringify(result).slice(0, 500));
+
     // Workers AI can return the text in several shapes across models — handle all
     let utterance = "";
     if (typeof result === "string") {
@@ -79,6 +83,8 @@ Offer your utterance now.`;
       utterance = result.result.response;
     } else if (Array.isArray(result?.choices) && result.choices[0]?.message?.content) {
       utterance = result.choices[0].message.content;
+    } else if (result?.result && typeof result.result === "string") {
+      utterance = result.result;
     }
 
     utterance = utterance.trim();
