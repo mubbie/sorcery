@@ -90,7 +90,13 @@ Offer your utterance now.`;
     utterance = utterance.trim();
 
     if (!utterance) {
-      return json({ error: "The oracle was silent — perhaps a sign." }, 502);
+      // Temporary debug: return the raw AI response shape so we can diagnose
+      return json({
+        error: "The oracle was silent — perhaps a sign.",
+        _debug_type: typeof result,
+        _debug_keys: result && typeof result === "object" ? Object.keys(result) : null,
+        _debug_preview: JSON.stringify(result).slice(0, 300)
+      }, 502);
     }
 
     // Defensive length cap
