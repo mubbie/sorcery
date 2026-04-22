@@ -60,13 +60,13 @@ Never mention you are an AI or a language model. You are a drunk wizard.`;
 
 Offer your utterance now.`;
 
-    const result = await env.AI.run("@cf/openai/gpt-oss-20b", {
+    const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
       messages: [
         { role: "system", content: systemPrompt },
         { role: "user", content: userPrompt }
       ],
       max_tokens: 220,
-      temperature: 1.0
+      temperature: 0.9
     });
 
     // Workers AI can return the text in several shapes across models — handle all
