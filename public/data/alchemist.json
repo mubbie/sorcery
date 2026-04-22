@@ -1,0 +1,955 @@
+[
+  {
+    "id": "the-midnight-archive",
+    "mystical_name": "The Midnight Archive",
+    "real_name": "Smoked Bourbon Sour",
+    "tagline": "Secrets dissolved in oak and ember.",
+    "tier": "alchemist",
+    "moods": [
+      "brooding",
+      "contemplative"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Wild Turkey Rare Breed bourbon"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "rich demerara syrup"
+      },
+      {
+        "amount": "1 dash",
+        "name": "Angostura bitters"
+      },
+      {
+        "amount": "1 mist",
+        "name": "mezcal (to rinse glass)"
+      }
+    ],
+    "instructions": [
+      "Rinse a rocks glass with a mist of mezcal; set aside.",
+      "Combine remaining ingredients in a shaker with ice.",
+      "Shake hard until frost forms on the tin.",
+      "Strain into the prepared glass over one large cube."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "expressed orange peel",
+    "omen": "A slow unraveling. The smoke arrives first, then the sweetness, then the knowledge that you were waiting for this all along. Do not answer the telephone for the next hour.",
+    "cost_estimate": "$22 per serving"
+  },
+  {
+    "id": "the-sextons-key",
+    "mystical_name": "The Sexton's Key",
+    "real_name": "Oaxaca Old Fashioned",
+    "tagline": "Opens a door that was not there yesterday.",
+    "tier": "alchemist",
+    "moods": [
+      "brooding",
+      "courageous"
+    ],
+    "ingredients": [
+      {
+        "amount": "1.5 oz",
+        "name": "reposado tequila"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "Del Maguey Vida mezcal"
+      },
+      {
+        "amount": "1 barspoon",
+        "name": "agave syrup"
+      },
+      {
+        "amount": "2 dashes",
+        "name": "chocolate bitters"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a mixing glass with ice.",
+      "Stir until properly chilled and diluted.",
+      "Strain into a rocks glass over one large cube.",
+      "Flame an orange peel over the surface; drop it in."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "flamed orange peel",
+    "omen": "An old thing wearing new clothes. The agave softens the blow but does not soften the message, and the chocolate bitters land like a postscript you were not expecting. Sleep early. Dream of places you have not yet been.",
+    "cost_estimate": "$24 per serving"
+  },
+  {
+    "id": "the-censors-inkwell",
+    "mystical_name": "The Censor's Inkwell",
+    "real_name": "Espresso Martini",
+    "tagline": "Darkness you can taste, alertness you cannot refuse.",
+    "tier": "alchemist",
+    "moods": [
+      "brooding",
+      "courageous"
+    ],
+    "ingredients": [
+      {
+        "amount": "1.5 oz",
+        "name": "Absolut Elyx vodka"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "coffee liqueur"
+      },
+      {
+        "amount": "1 oz",
+        "name": "fresh espresso, cooled"
+      },
+      {
+        "amount": "0.25 oz",
+        "name": "rich demerara syrup"
+      }
+    ],
+    "instructions": [
+      "Pull a fresh shot of espresso and let it cool slightly.",
+      "Combine all ingredients in a shaker with ice.",
+      "Shake very hard for 15 seconds to build the crema.",
+      "Double-strain into a chilled coupe."
+    ],
+    "glassware": "coupe",
+    "garnish": "three coffee beans",
+    "omen": "Caffeine and ethanol pulling in opposite directions, and you in the middle, awake to things you would rather have slept through. The crema is a false peace. Beneath it, the engine is already running.",
+    "cost_estimate": "$22 per serving"
+  },
+  {
+    "id": "the-blood-concordance",
+    "mystical_name": "The Blood Concordance",
+    "real_name": "Blood & Sand",
+    "tagline": "Four signatures on a document no one reads.",
+    "tier": "alchemist",
+    "moods": [
+      "brooding",
+      "amorous"
+    ],
+    "ingredients": [
+      {
+        "amount": "0.75 oz",
+        "name": "Highland Park 12 scotch"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "sweet vermouth"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "Cherry Heering"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh orange juice"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker with ice.",
+      "Shake until well-chilled.",
+      "Strain into a coupe.",
+      "Garnish with a flamed orange peel."
+    ],
+    "glassware": "coupe",
+    "garnish": "flamed orange peel",
+    "omen": "Scotch and cherry and blood-orange conspiring in a language older than English. You will remember a face you have not thought of in years, and the memory will be neither painful nor pleasant. It will simply be accurate.",
+    "cost_estimate": "$24 per serving"
+  },
+  {
+    "id": "the-gilded-rumour",
+    "mystical_name": "The Gilded Rumour",
+    "real_name": "Chartreuse Swizzle",
+    "tagline": "Whispered between courses at someone else's banquet.",
+    "tier": "alchemist",
+    "moods": [
+      "celebratory"
+    ],
+    "ingredients": [
+      {
+        "amount": "1.5 oz",
+        "name": "Green Chartreuse"
+      },
+      {
+        "amount": "1 oz",
+        "name": "pineapple juice"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lime juice"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "velvet falernum"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a highball glass.",
+      "Fill with crushed ice.",
+      "Swizzle with a barspoon until frost forms on the outside of the glass.",
+      "Top with more crushed ice and garnish."
+    ],
+    "glassware": "highball",
+    "garnish": "fresh mint sprig, grated nutmeg",
+    "omen": "Herbal and freezing and entirely too easy to drink. The monks who made this liqueur kept 130 secrets, and you are now party to one of them. You will not know which one until later, and by then it will not matter.",
+    "cost_estimate": "$24 per serving"
+  },
+  {
+    "id": "that-which-was-promised",
+    "mystical_name": "That Which Was Promised",
+    "real_name": "St-Germain Collins",
+    "tagline": "Elderflower in the key of almost.",
+    "tier": "alchemist",
+    "moods": [
+      "celebratory",
+      "amorous"
+    ],
+    "ingredients": [
+      {
+        "amount": "1.5 oz",
+        "name": "Hendrick's gin"
+      },
+      {
+        "amount": "1 oz",
+        "name": "St-Germain elderflower liqueur"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "2 oz",
+        "name": "club soda"
+      }
+    ],
+    "instructions": [
+      "Combine gin, St-Germain, and lemon in a shaker with ice.",
+      "Shake briefly and strain into a collins glass over fresh ice.",
+      "Top with club soda.",
+      "Stir gently once."
+    ],
+    "glassware": "collins",
+    "garnish": "cucumber ribbon",
+    "omen": "Floral and expectant. Something you were promised is arriving, though it will not look the way you imagined. The elderflower does not lie, but it does exaggerate, and so does hope. Accept both.",
+    "cost_estimate": "$22 per serving"
+  },
+  {
+    "id": "the-cloudspinner",
+    "mystical_name": "The Cloudspinner",
+    "real_name": "Ramos Gin Fizz",
+    "tagline": "A meringue of impossible engineering.",
+    "tier": "alchemist",
+    "moods": [
+      "celebratory"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Monkey 47 gin"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "fresh lime juice"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "simple syrup"
+      },
+      {
+        "amount": "1 oz",
+        "name": "heavy cream"
+      },
+      {
+        "amount": "1",
+        "name": "egg white"
+      },
+      {
+        "amount": "3 drops",
+        "name": "orange flower water"
+      },
+      {
+        "amount": "1 oz",
+        "name": "club soda"
+      }
+    ],
+    "instructions": [
+      "Combine everything except the soda in a shaker without ice. Dry-shake hard for 30 seconds.",
+      "Add ice and shake again for 15 seconds.",
+      "Strain into a chilled collins glass without ice.",
+      "Pour the soda into the shaker, swirl, and add to the glass to lift the foam above the rim."
+    ],
+    "glassware": "collins",
+    "garnish": "none",
+    "omen": "A cloud with structural integrity. You will spend five minutes building this drink and forty seconds admiring it and both are time well spent. Something impractical is about to bring you joy. Do not question it.",
+    "cost_estimate": "$26 per serving"
+  },
+  {
+    "id": "the-castaways-fortune",
+    "mystical_name": "The Castaway's Fortune",
+    "real_name": "Mai Tai",
+    "tagline": "Shipwrecked in paradise, declining rescue.",
+    "tier": "alchemist",
+    "moods": [
+      "celebratory",
+      "courageous"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 oz",
+        "name": "Plantation XO rum"
+      },
+      {
+        "amount": "1 oz",
+        "name": "Rhum Clement VSOP"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lime juice"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "Pierre Ferrand dry curacao"
+      },
+      {
+        "amount": "0.25 oz",
+        "name": "orgeat"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker with ice.",
+      "Shake hard for 12 seconds.",
+      "Pour the entire contents — ice and all — into a rocks glass.",
+      "Garnish generously."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "spent lime shell, fresh mint sprig",
+    "omen": "Two rums pulling in different directions, like a conversation between the person you were and the person you are becoming. The orgeat smooths the argument. By the end of the glass, they will have agreed on something.",
+    "cost_estimate": "$28 per serving"
+  },
+  {
+    "id": "the-notarys-dram",
+    "mystical_name": "The Notary's Dram",
+    "real_name": "Paper Plane",
+    "tagline": "Folded from four equal sheets of something reckless.",
+    "tier": "alchemist",
+    "moods": [
+      "contemplative",
+      "courageous"
+    ],
+    "ingredients": [
+      {
+        "amount": "0.75 oz",
+        "name": "Wild Turkey Rare Breed bourbon"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "Aperol"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "Amaro Nonino"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lemon juice"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker with ice.",
+      "Shake until very cold.",
+      "Double-strain into a chilled coupe.",
+      "Serve without garnish."
+    ],
+    "glassware": "coupe",
+    "garnish": "none",
+    "omen": "Equal parts, airborne. The Amaro and Aperol argue about Italy while the bourbon listens from across the Atlantic. You will form an opinion tonight about something you did not know existed this morning.",
+    "cost_estimate": "$22 per serving"
+  },
+  {
+    "id": "the-ember-lectern",
+    "mystical_name": "The Ember Lectern",
+    "real_name": "Applewood Old Fashioned",
+    "tagline": "A sermon delivered in smoke and amber.",
+    "tier": "alchemist",
+    "moods": [
+      "contemplative",
+      "brooding"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Nikka Coffey Grain whisky"
+      },
+      {
+        "amount": "0.25 oz",
+        "name": "rich demerara syrup"
+      },
+      {
+        "amount": "2 dashes",
+        "name": "black walnut bitters"
+      },
+      {
+        "amount": "1 piece",
+        "name": "applewood chip (for smoking)"
+      }
+    ],
+    "instructions": [
+      "Smoke a rocks glass with the applewood chip; cap and let it fill.",
+      "Add the syrup and bitters to the smoked glass.",
+      "Add one large ice cube.",
+      "Pour in the whisky and stir gently for 10 rotations."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "expressed orange peel",
+    "omen": "Walnut and smoke and a Japanese grain whisky that has no business being this good, but there it is. You will sit quietly and the quiet will have weight, and the weight will be a comfort. Not all heaviness is grief.",
+    "cost_estimate": "$28 per serving"
+  },
+  {
+    "id": "the-surgeons-measure",
+    "mystical_name": "The Surgeon's Measure",
+    "real_name": "Bay Laurel Gimlet",
+    "tagline": "Precision, with leaves.",
+    "tier": "alchemist",
+    "moods": [
+      "contemplative"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "St. George Terroir gin"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lime juice"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "bay laurel syrup"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker with ice.",
+      "Shake until very cold.",
+      "Double-strain into a chilled Nick and Nora glass.",
+      "Float a fresh bay leaf on the surface."
+    ],
+    "glassware": "Nick & Nora",
+    "garnish": "fresh bay leaf",
+    "omen": "Eucalyptus and lime and the smell of a forest that does not exist outside this glass. You will make a decision with unusual clarity tonight. Trust it. The bay leaf does not waver and neither should you.",
+    "cost_estimate": "$24 per serving"
+  },
+  {
+    "id": "the-kyoto-dispatch",
+    "mystical_name": "The Kyoto Dispatch",
+    "real_name": "Japanese Whisky Highball",
+    "tagline": "A telegram of ice and restraint.",
+    "tier": "alchemist",
+    "moods": [
+      "contemplative",
+      "weary"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Nikka Coffey Grain whisky"
+      },
+      {
+        "amount": "4 oz",
+        "name": "chilled soda water"
+      }
+    ],
+    "instructions": [
+      "Fill a tall glass with ice cubes to the brim.",
+      "Pour in the whisky.",
+      "Add soda water slowly down the side of the glass.",
+      "Stir exactly three and a half times with a barspoon. No more."
+    ],
+    "glassware": "highball",
+    "garnish": "expressed lemon peel",
+    "omen": "Restraint is not the absence of flavor; it is its concentration. The bubbles carry the grain and the grain carries the afternoon into the evening without complaint. You will notice something small today, and the noticing will be enough.",
+    "cost_estimate": "$22 per serving"
+  },
+  {
+    "id": "matins-for-a-stranger",
+    "mystical_name": "Matins for a Stranger",
+    "real_name": "Lavender Gimlet",
+    "tagline": "Morning prayers said in an unfamiliar chapel.",
+    "tier": "alchemist",
+    "moods": [
+      "amorous"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Hendrick's gin"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lime juice"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "lavender syrup"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker with ice.",
+      "Shake until frost forms.",
+      "Double-strain into a chilled coupe.",
+      "Float a single dried lavender bud on the surface."
+    ],
+    "glassware": "coupe",
+    "garnish": "dried lavender bud",
+    "omen": "Floral, astringent, and impossible to ignore. The lavender is not a perfume; it is an announcement, and someone in the room has already noticed. Whether you act on this is your own affair, but the gin suggests you should.",
+    "cost_estimate": "$22 per serving"
+  },
+  {
+    "id": "the-fever-trellis",
+    "mystical_name": "The Fever Trellis",
+    "real_name": "Hibiscus Sour",
+    "tagline": "Hot-pink and unapologetic.",
+    "tier": "alchemist",
+    "moods": [
+      "amorous",
+      "celebratory"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Hendrick's gin"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "hibiscus syrup"
+      },
+      {
+        "amount": "1",
+        "name": "egg white"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker without ice. Dry-shake hard for 20 seconds.",
+      "Add ice and shake again for 12 seconds.",
+      "Double-strain into a coupe.",
+      "Wait for the foam to settle, then drop three drops of bitters on top and drag a pick through them."
+    ],
+    "glassware": "coupe",
+    "garnish": "Angostura bitters art",
+    "omen": "Rose-magenta and silk-topped. You will blush tonight, and it will not be embarrassment but recognition. The hibiscus knows what the gin does not: that sweetness and tartness are the same impulse, wearing different clothes.",
+    "cost_estimate": "$22 per serving"
+  },
+  {
+    "id": "the-aviators-memoir",
+    "mystical_name": "The Aviator's Memoir",
+    "real_name": "Aviation",
+    "tagline": "Violet sky, just before the engines catch.",
+    "tier": "alchemist",
+    "moods": [
+      "amorous",
+      "contemplative"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Monkey 47 gin"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "Luxardo maraschino"
+      },
+      {
+        "amount": "0.25 oz",
+        "name": "Creme de Violette"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lemon juice"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker with ice.",
+      "Shake until very cold.",
+      "Double-strain into a chilled coupe.",
+      "Garnish with a brandied cherry."
+    ],
+    "glassware": "coupe",
+    "garnish": "brandied cherry",
+    "omen": "Pale violet and weightless. The Creme de Violette tints everything the color of a sky that only exists at altitude, and for one glass you will believe you have been there. You have not, but belief is the heavier currency.",
+    "cost_estimate": "$24 per serving"
+  },
+  {
+    "id": "the-clover-inquest",
+    "mystical_name": "The Clover Inquest",
+    "real_name": "Clover Club",
+    "tagline": "Raspberry and gin, cross-examined.",
+    "tier": "alchemist",
+    "moods": [
+      "amorous"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Plymouth gin"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "raspberry syrup"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "dry vermouth"
+      },
+      {
+        "amount": "1",
+        "name": "egg white"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker without ice. Dry-shake for 20 seconds.",
+      "Add ice and shake hard for 12 seconds.",
+      "Double-strain into a chilled coupe.",
+      "Let the foam cap rise and serve."
+    ],
+    "glassware": "coupe",
+    "garnish": "three fresh raspberries",
+    "omen": "Pink, frothy, and older than it looks. The raspberry leads and the gin follows, which is the opposite of what you expected, and that reversal is the whole lesson. Let someone else take the lead tonight.",
+    "cost_estimate": "$22 per serving"
+  },
+  {
+    "id": "the-burning-almanac",
+    "mystical_name": "The Burning Almanac",
+    "real_name": "Trinidad Sour",
+    "tagline": "Angostura in quantities that would alarm a physician.",
+    "tier": "alchemist",
+    "moods": [
+      "courageous"
+    ],
+    "ingredients": [
+      {
+        "amount": "1.5 oz",
+        "name": "Angostura bitters"
+      },
+      {
+        "amount": "1 oz",
+        "name": "orgeat"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "Rittenhouse rye"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker with ice.",
+      "Shake vigorously until very cold.",
+      "Double-strain into a coupe.",
+      "Serve immediately."
+    ],
+    "glassware": "coupe",
+    "garnish": "none",
+    "omen": "Yes, that is an ounce and a half of bitters, and yes, it works. Some heresies bear fruit. You will defend an unpopular position tonight and be right about it, and no one will thank you, and that will also be correct.",
+    "cost_estimate": "$20 per serving"
+  },
+  {
+    "id": "the-admirals-proof",
+    "mystical_name": "The Admiral's Proof",
+    "real_name": "Navy Strength Martini",
+    "tagline": "Gunpowder-proof and poured without flinching.",
+    "tier": "alchemist",
+    "moods": [
+      "courageous",
+      "contemplative"
+    ],
+    "ingredients": [
+      {
+        "amount": "2.5 oz",
+        "name": "Perry's Tot Navy Strength gin"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "dry vermouth"
+      },
+      {
+        "amount": "1 dash",
+        "name": "orange bitters"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a mixing glass with ice.",
+      "Stir for 30 rotations until very cold.",
+      "Strain into a chilled martini glass.",
+      "Express a lemon peel and drop it in."
+    ],
+    "glassware": "martini glass",
+    "garnish": "lemon peel",
+    "omen": "114 proof and transparent. The vermouth is a rumor; the gin is a fact. You will say something tonight that you cannot unsay, and the clarity of this drink suggests you should go ahead and say it.",
+    "cost_estimate": "$24 per serving"
+  },
+  {
+    "id": "the-naked-decree",
+    "mystical_name": "The Naked Decree",
+    "real_name": "Naked & Famous",
+    "tagline": "Mezcal in formal dress, behaving improperly.",
+    "tier": "alchemist",
+    "moods": [
+      "courageous",
+      "brooding"
+    ],
+    "ingredients": [
+      {
+        "amount": "0.75 oz",
+        "name": "Del Maguey Vida mezcal"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "Yellow Chartreuse"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "Aperol"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lime juice"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker with ice.",
+      "Shake until very cold.",
+      "Double-strain into a chilled coupe.",
+      "No garnish."
+    ],
+    "glassware": "coupe",
+    "garnish": "none",
+    "omen": "Smoke and apricot and the courage of equal parts. This drink hides nothing, which is either its greatest virtue or its most obvious flaw. You will know which one by the time you set down the glass.",
+    "cost_estimate": "$22 per serving"
+  },
+  {
+    "id": "the-high-tribunal",
+    "mystical_name": "The High Tribunal",
+    "real_name": "Pisco Sour",
+    "tagline": "Three judges, one verdict, no appeal.",
+    "tier": "alchemist",
+    "moods": [
+      "courageous",
+      "celebratory"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "pisco"
+      },
+      {
+        "amount": "1 oz",
+        "name": "fresh lime juice"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "simple syrup"
+      },
+      {
+        "amount": "1",
+        "name": "egg white"
+      },
+      {
+        "amount": "3 dashes",
+        "name": "Angostura bitters"
+      }
+    ],
+    "instructions": [
+      "Combine pisco, lime, syrup, and egg white in a shaker without ice. Dry-shake for 20 seconds.",
+      "Add ice and shake hard for 12 seconds.",
+      "Double-strain into a coupe.",
+      "Dash bitters in a pattern across the foam."
+    ],
+    "glassware": "coupe",
+    "garnish": "Angostura bitters drops on foam",
+    "omen": "The foam is a false ceiling; the pisco is the room beneath it. Grape brandy and lime in a courthouse neither one built, and the bitters are the gavel. You will be judged tonight, but fairly, and by someone who knows you.",
+    "cost_estimate": "$20 per serving"
+  },
+  {
+    "id": "the-goodwifes-cure",
+    "mystical_name": "The Goodwife's Cure",
+    "real_name": "Scotch Penicillin",
+    "tagline": "Honey and peat and a firm hand on the forehead.",
+    "tier": "alchemist",
+    "moods": [
+      "weary",
+      "brooding"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Highland Park 12 scotch"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "honey-ginger syrup"
+      },
+      {
+        "amount": "0.25 oz",
+        "name": "Laphroaig 10 scotch (float)"
+      }
+    ],
+    "instructions": [
+      "Combine the Highland Park, lemon, and syrup in a shaker with ice.",
+      "Shake hard until very cold.",
+      "Strain into a rocks glass over one large cube.",
+      "Float the Laphroaig gently over the back of a barspoon."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "candied ginger",
+    "omen": "Peat-smoke and honey and ginger in a formation you have felt before but never named. The Laphroaig float is a blanket over the whole thing, heavy and medicinal and exactly what was prescribed. Stay in tonight.",
+    "cost_estimate": "$28 per serving"
+  },
+  {
+    "id": "the-hearthkeeper",
+    "mystical_name": "The Hearthkeeper",
+    "real_name": "Hot Buttered Bourbon",
+    "tagline": "The fire that tends the fire-tender.",
+    "tier": "alchemist",
+    "moods": [
+      "weary"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Knob Creek bourbon"
+      },
+      {
+        "amount": "1 tsp",
+        "name": "brown sugar"
+      },
+      {
+        "amount": "1 tsp",
+        "name": "unsalted butter"
+      },
+      {
+        "amount": "4 oz",
+        "name": "hot water"
+      },
+      {
+        "amount": "2 dashes",
+        "name": "Angostura bitters"
+      },
+      {
+        "amount": "1 pinch",
+        "name": "cinnamon"
+      }
+    ],
+    "instructions": [
+      "Warm a mug with hot water; discard the water.",
+      "Add brown sugar, butter, bitters, and cinnamon.",
+      "Pour in the bourbon and a little hot water; stir to melt the butter.",
+      "Top with remaining hot water and stir again."
+    ],
+    "glassware": "mug",
+    "garnish": "cinnamon stick",
+    "omen": "Butter melts in concentric rings and the bourbon carries the cinnamon like a letter to an old address. Your hands will warm before your chest does, but your chest will follow. Some repairs begin at the edges.",
+    "cost_estimate": "$20 per serving"
+  },
+  {
+    "id": "the-monastery-physic",
+    "mystical_name": "The Monastery Physic",
+    "real_name": "Benedictine Hot Toddy",
+    "tagline": "What the monks prescribed and the abbot did not refuse.",
+    "tier": "alchemist",
+    "moods": [
+      "weary",
+      "contemplative"
+    ],
+    "ingredients": [
+      {
+        "amount": "1.5 oz",
+        "name": "cognac"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "Benedictine"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "honey syrup"
+      },
+      {
+        "amount": "3 oz",
+        "name": "hot water"
+      }
+    ],
+    "instructions": [
+      "Warm a mug or heatproof glass with hot water; discard.",
+      "Add all ingredients except hot water and stir.",
+      "Top with hot water.",
+      "Garnish and drink slowly."
+    ],
+    "glassware": "mug",
+    "garnish": "lemon wheel, clove",
+    "omen": "Herbal and scriptural and warm in a way that suggests someone older than you is looking out for you. The Benedictine is the part you cannot name but would miss instantly. Call it faith, or habit, or just good engineering.",
+    "cost_estimate": "$22 per serving"
+  },
+  {
+    "id": "the-autumn-warden",
+    "mystical_name": "The Autumn Warden",
+    "real_name": "Calvados Sour",
+    "tagline": "Apple orchards at the hour the gates are locked.",
+    "tier": "alchemist",
+    "moods": [
+      "weary",
+      "amorous"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Calvados"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "cinnamon syrup"
+      },
+      {
+        "amount": "1",
+        "name": "egg white"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker without ice. Dry-shake for 20 seconds.",
+      "Add ice and shake hard for 12 seconds.",
+      "Double-strain into a coupe.",
+      "Grate fresh cinnamon over the foam."
+    ],
+    "glassware": "coupe",
+    "garnish": "grated cinnamon",
+    "omen": "Apple brandy and cinnamon and the particular sadness of October, which is not grief but its gentler cousin, nostalgia. You will remember a kitchen, and the person in it will be younger than you remember. So will you.",
+    "cost_estimate": "$24 per serving"
+  }
+]

@@ -1,0 +1,905 @@
+[
+  {
+    "id": "the-heretics-confession",
+    "mystical_name": "The Heretic's Confession",
+    "real_name": "Negroni",
+    "tagline": "Three truths, equal in weight, none of them kind.",
+    "tier": "merchant",
+    "moods": [
+      "brooding",
+      "contemplative"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 oz",
+        "name": "Plymouth gin"
+      },
+      {
+        "amount": "1 oz",
+        "name": "Campari"
+      },
+      {
+        "amount": "1 oz",
+        "name": "sweet vermouth"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a mixing glass with ice.",
+      "Stir for 25 rotations until well-chilled.",
+      "Strain into a rocks glass over one large cube.",
+      "Express an orange peel over the surface and drop it in."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "orange peel",
+    "omen": "Bitterness is not the enemy. It is the thing that keeps sweetness honest. You will understand this by the second sip, and forgive someone by the third.",
+    "cost_estimate": "$14 per serving"
+  },
+  {
+    "id": "the-bellman-of-ash",
+    "mystical_name": "The Bellman of Ash",
+    "real_name": "Jungle Bird",
+    "tagline": "Announced by smoke before you see his face.",
+    "tier": "merchant",
+    "moods": [
+      "brooding"
+    ],
+    "ingredients": [
+      {
+        "amount": "1.5 oz",
+        "name": "Jamaican dark rum"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "Campari"
+      },
+      {
+        "amount": "1.5 oz",
+        "name": "pineapple juice"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "fresh lime juice"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "demerara syrup"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker with ice.",
+      "Shake hard for 12 seconds.",
+      "Strain into a rocks glass over fresh ice.",
+      "Garnish with a pineapple wedge."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "pineapple wedge",
+    "omen": "Tropical darkness. The Campari stains the pineapple like a letter written in haste, and you will taste regret and pleasure simultaneously. This is called Tuesday, in some latitudes.",
+    "cost_estimate": "$13 per serving"
+  },
+  {
+    "id": "the-bitter-magistrate",
+    "mystical_name": "The Bitter Magistrate",
+    "real_name": "Boulevardier",
+    "tagline": "A Negroni that went to law school.",
+    "tier": "merchant",
+    "moods": [
+      "brooding",
+      "contemplative"
+    ],
+    "ingredients": [
+      {
+        "amount": "1.5 oz",
+        "name": "Bulleit bourbon"
+      },
+      {
+        "amount": "1 oz",
+        "name": "Campari"
+      },
+      {
+        "amount": "1 oz",
+        "name": "sweet vermouth"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a mixing glass with ice.",
+      "Stir for 30 rotations.",
+      "Strain into a coupe.",
+      "Express an orange peel over the drink; discard or drop in."
+    ],
+    "glassware": "coupe",
+    "garnish": "orange peel",
+    "omen": "Heavier than its cousin, and less willing to explain itself. The bourbon adds a closing argument the gin never had. You will settle an old debt tonight, if only with yourself.",
+    "cost_estimate": "$14 per serving"
+  },
+  {
+    "id": "the-storm-ledger",
+    "mystical_name": "The Storm Ledger",
+    "real_name": "Dark & Stormy",
+    "tagline": "Black clouds over a copper sea.",
+    "tier": "merchant",
+    "moods": [
+      "brooding",
+      "courageous"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Gosling's Black Seal rum"
+      },
+      {
+        "amount": "4 oz",
+        "name": "Fever-Tree ginger beer"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "fresh lime juice"
+      }
+    ],
+    "instructions": [
+      "Fill a highball glass with ice.",
+      "Add ginger beer and lime juice.",
+      "Float the dark rum over the back of a barspoon.",
+      "Serve without stirring — let the storm settle on its own."
+    ],
+    "glassware": "highball",
+    "garnish": "lime wheel",
+    "omen": "Two layers that refuse to merge until you drink them. Spice from below, molasses from above. Something in your life is arranged the same way, and this drink will not tell you which thing, but you will know by the bottom of the glass.",
+    "cost_estimate": "$12 per serving"
+  },
+  {
+    "id": "the-widows-garden",
+    "mystical_name": "The Widow's Garden",
+    "real_name": "Aperol Spritz",
+    "tagline": "Orange envelopes, unbroken seals, a sunlit afternoon.",
+    "tier": "merchant",
+    "moods": [
+      "celebratory",
+      "amorous"
+    ],
+    "ingredients": [
+      {
+        "amount": "3 oz",
+        "name": "prosecco"
+      },
+      {
+        "amount": "2 oz",
+        "name": "Aperol"
+      },
+      {
+        "amount": "1 oz",
+        "name": "club soda"
+      }
+    ],
+    "instructions": [
+      "Fill a large wine glass with ice.",
+      "Add the prosecco first, then the Aperol.",
+      "Top with club soda and stir once, gently.",
+      "Garnish with an orange slice."
+    ],
+    "glassware": "wine glass",
+    "garnish": "orange slice",
+    "omen": "Good news is coming, if not for you then for someone whose happiness you can still borrow without shame. The bubbles rise in threes. Count them if you wish; it will not change what arrives.",
+    "cost_estimate": "$11 per serving"
+  },
+  {
+    "id": "the-ninth-orchard",
+    "mystical_name": "The Ninth Orchard",
+    "real_name": "Paloma",
+    "tagline": "Grapefruit, salt, and the memory of altitude.",
+    "tier": "merchant",
+    "moods": [
+      "celebratory"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Espolon Blanco tequila"
+      },
+      {
+        "amount": "3 oz",
+        "name": "fresh grapefruit juice"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "fresh lime juice"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "simple syrup"
+      },
+      {
+        "amount": "2 oz",
+        "name": "club soda"
+      }
+    ],
+    "instructions": [
+      "Rim a highball glass with salt; fill with ice.",
+      "Add tequila, grapefruit juice, lime juice, and syrup.",
+      "Top with club soda.",
+      "Stir gently and garnish."
+    ],
+    "glassware": "highball",
+    "garnish": "grapefruit wedge",
+    "omen": "Pink and salt and the sharp edge of the afternoon. You will make a small decision today that will look larger from a year away. The grapefruit knows this; that is why it is smiling.",
+    "cost_estimate": "$12 per serving"
+  },
+  {
+    "id": "the-provosts-flourish",
+    "mystical_name": "The Provost's Flourish",
+    "real_name": "French 75",
+    "tagline": "Gin with its Sunday dress on.",
+    "tier": "merchant",
+    "moods": [
+      "celebratory",
+      "courageous"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 oz",
+        "name": "Beefeater gin"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "simple syrup"
+      },
+      {
+        "amount": "3 oz",
+        "name": "brut Champagne"
+      }
+    ],
+    "instructions": [
+      "Combine gin, lemon, and syrup in a shaker with ice.",
+      "Shake until thoroughly chilled.",
+      "Strain into a flute.",
+      "Top with cold Champagne."
+    ],
+    "glassware": "flute",
+    "garnish": "long lemon twist",
+    "omen": "Lightness as a form of defiance. The acid sharpens the tongue and you will say the thing you have been practicing. It will land better than you hoped, and worse than they feared.",
+    "cost_estimate": "$16 per serving"
+  },
+  {
+    "id": "the-havana-leaf",
+    "mystical_name": "The Havana Leaf",
+    "real_name": "Mojito",
+    "tagline": "Mint and cane and the sound of ceiling fans.",
+    "tier": "merchant",
+    "moods": [
+      "celebratory",
+      "amorous"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Plantation 3 Stars rum"
+      },
+      {
+        "amount": "1 oz",
+        "name": "fresh lime juice"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "simple syrup"
+      },
+      {
+        "amount": "8",
+        "name": "fresh mint leaves"
+      },
+      {
+        "amount": "2 oz",
+        "name": "club soda"
+      }
+    ],
+    "instructions": [
+      "Gently muddle the mint leaves with lime juice and syrup in a highball glass.",
+      "Add the rum and fill the glass with crushed ice.",
+      "Top with club soda.",
+      "Stir upward from the bottom to distribute the mint. Add more crushed ice to crown."
+    ],
+    "glassware": "highball",
+    "garnish": "fresh mint sprig",
+    "omen": "The mint arrives before you are ready for it, as all green things do. Tonight you will laugh at something that is not a joke, and the person who said it will be grateful. Drink in the sun if you can find any.",
+    "cost_estimate": "$13 per serving"
+  },
+  {
+    "id": "the-velvet-bargain",
+    "mystical_name": "The Velvet Bargain",
+    "real_name": "Manhattan",
+    "tagline": "Signed in a hand you almost recognize.",
+    "tier": "merchant",
+    "moods": [
+      "contemplative",
+      "brooding"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Rittenhouse rye"
+      },
+      {
+        "amount": "1 oz",
+        "name": "sweet vermouth"
+      },
+      {
+        "amount": "2 dashes",
+        "name": "Angostura bitters"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a mixing glass with ice.",
+      "Stir for 30 rotations until silky-cold.",
+      "Strain into a chilled coupe.",
+      "Garnish with a brandied cherry."
+    ],
+    "glassware": "coupe",
+    "garnish": "brandied cherry",
+    "omen": "The terms are favourable. The cost is deferred. You taste the rye, then the vermouth, then the quiet understanding that some agreements are signed in disappearing ink.",
+    "cost_estimate": "$14 per serving"
+  },
+  {
+    "id": "an-hour-before-vespers",
+    "mystical_name": "An Hour Before Vespers",
+    "real_name": "Vieux Carre",
+    "tagline": "Five voices singing in a minor key.",
+    "tier": "merchant",
+    "moods": [
+      "contemplative"
+    ],
+    "ingredients": [
+      {
+        "amount": "0.75 oz",
+        "name": "Rittenhouse rye"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "cognac"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "sweet vermouth"
+      },
+      {
+        "amount": "1 barspoon",
+        "name": "Benedictine"
+      },
+      {
+        "amount": "2 dashes",
+        "name": "Peychaud's bitters"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a mixing glass with ice.",
+      "Stir for 35 rotations until properly chilled.",
+      "Strain into a rocks glass over one large cube.",
+      "Express a lemon peel and discard."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "lemon peel",
+    "omen": "Five ingredients, none dominant, all necessary. This is how certain friendships work, and you have at least one that operates on exactly this principle. Call them tomorrow, not tonight. Tonight is for the drink.",
+    "cost_estimate": "$16 per serving"
+  },
+  {
+    "id": "the-quiet-assessor",
+    "mystical_name": "The Quiet Assessor",
+    "real_name": "Old Fashioned",
+    "tagline": "The oldest question, asked properly.",
+    "tier": "merchant",
+    "moods": [
+      "contemplative",
+      "brooding"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Buffalo Trace bourbon"
+      },
+      {
+        "amount": "0.25 oz",
+        "name": "demerara syrup"
+      },
+      {
+        "amount": "2 dashes",
+        "name": "Angostura bitters"
+      },
+      {
+        "amount": "1 dash",
+        "name": "orange bitters"
+      }
+    ],
+    "instructions": [
+      "Add syrup and bitters to a rocks glass.",
+      "Add one large ice cube.",
+      "Pour in the bourbon.",
+      "Stir gently in the glass for 15 rotations. Express an orange peel over the top."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "expressed orange peel",
+    "omen": "An old argument, gently resolved. Sip by sip the edges soften, and by the second glass you will have forgotten what was said, though not by whom. The ice melts at exactly the right pace if you let it.",
+    "cost_estimate": "$13 per serving"
+  },
+  {
+    "id": "the-harbour-glass",
+    "mystical_name": "The Harbour Glass",
+    "real_name": "Daiquiri",
+    "tagline": "Three ingredients with nothing to hide.",
+    "tier": "merchant",
+    "moods": [
+      "contemplative",
+      "celebratory"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Plantation 3 Stars rum"
+      },
+      {
+        "amount": "1 oz",
+        "name": "fresh lime juice"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "simple syrup"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker with ice.",
+      "Shake hard for 10 seconds.",
+      "Double-strain into a chilled coupe.",
+      "Serve immediately — this drink waits for no one."
+    ],
+    "glassware": "coupe",
+    "garnish": "lime wheel",
+    "omen": "Transparency. The lime cuts the sugar and the rum carries both without complaint. You will see something clearly tonight that you have been squinting at for weeks, and the seeing will be enough.",
+    "cost_estimate": "$12 per serving"
+  },
+  {
+    "id": "a-letter-left-unopened",
+    "mystical_name": "A Letter Left Unopened",
+    "real_name": "Bee's Knees",
+    "tagline": "Honey-sealed, gin-delivered, unsigned.",
+    "tier": "merchant",
+    "moods": [
+      "amorous"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Beefeater gin"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "honey syrup"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker with ice.",
+      "Shake vigorously until the tin frosts.",
+      "Double-strain into a chilled coupe.",
+      "Express a lemon peel over the surface."
+    ],
+    "glassware": "coupe",
+    "garnish": "lemon peel",
+    "omen": "The honey gentles the gin into something almost conversational, and conversations that begin this way tend to continue past the point of prudence. You have been warned, though not discouraged.",
+    "cost_estimate": "$13 per serving"
+  },
+  {
+    "id": "the-cartographers-regret",
+    "mystical_name": "The Cartographer's Regret",
+    "real_name": "Bramble",
+    "tagline": "Blackberry ink on a map to nowhere pleasant.",
+    "tier": "merchant",
+    "moods": [
+      "amorous",
+      "brooding"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Tanqueray gin"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "simple syrup"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "Creme de Mure"
+      }
+    ],
+    "instructions": [
+      "Combine gin, lemon, and syrup in a shaker with ice.",
+      "Shake and strain into a rocks glass packed with crushed ice.",
+      "Drizzle the Creme de Mure over the top.",
+      "Let it bleed through the ice — do not stir."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "fresh blackberry",
+    "omen": "The purple bleeds downward like a secret told in the wrong order. Tart, then sweet, then the juniper reminds you where you started. You will return to a place you thought you were done with, and find it changed.",
+    "cost_estimate": "$14 per serving"
+  },
+  {
+    "id": "the-seville-correspondence",
+    "mystical_name": "The Seville Correspondence",
+    "real_name": "Margarita",
+    "tagline": "A letter from the sun, written in salt.",
+    "tier": "merchant",
+    "moods": [
+      "amorous",
+      "celebratory"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Espolon Reposado tequila"
+      },
+      {
+        "amount": "1 oz",
+        "name": "fresh lime juice"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "Cointreau"
+      }
+    ],
+    "instructions": [
+      "Rim half a rocks glass with flaky salt.",
+      "Combine tequila, lime, and Cointreau in a shaker with ice.",
+      "Shake hard until frost forms.",
+      "Strain into the prepared glass over fresh ice."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "lime wheel, half salt rim",
+    "omen": "Salt before citrus, citrus before agave, and the order matters more than anyone will admit. You will receive a message tonight, or you will send one. The salt is for courage; the lime is for clarity.",
+    "cost_estimate": "$14 per serving"
+  },
+  {
+    "id": "the-parisian-envelope",
+    "mystical_name": "The Parisian Envelope",
+    "real_name": "Sidecar",
+    "tagline": "Cognac dressed for someone else's party.",
+    "tier": "merchant",
+    "moods": [
+      "amorous",
+      "contemplative"
+    ],
+    "ingredients": [
+      {
+        "amount": "1.5 oz",
+        "name": "cognac"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "Cointreau"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lemon juice"
+      }
+    ],
+    "instructions": [
+      "Rim a coupe with fine sugar if desired.",
+      "Combine all ingredients in a shaker with ice.",
+      "Shake until thoroughly chilled.",
+      "Double-strain into the coupe."
+    ],
+    "glassware": "coupe",
+    "garnish": "orange twist",
+    "omen": "Something from another century, still perfectly dressed. The brandy wears the citrus like a borrowed coat, and you will feel, for one glass, like someone who has traveled more than they have. This is not deception; it is aspiration.",
+    "cost_estimate": "$15 per serving"
+  },
+  {
+    "id": "saint-of-last-rounds",
+    "mystical_name": "Saint of Last Rounds",
+    "real_name": "Last Word",
+    "tagline": "A patron saint for those who linger past good sense.",
+    "tier": "merchant",
+    "moods": [
+      "courageous",
+      "contemplative"
+    ],
+    "ingredients": [
+      {
+        "amount": "0.75 oz",
+        "name": "Plymouth gin"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "Green Chartreuse"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "Luxardo maraschino"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lime juice"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker with ice.",
+      "Shake vigorously until very cold.",
+      "Double-strain into a chilled coupe.",
+      "Serve with no garnish — the drink speaks for itself."
+    ],
+    "glassware": "coupe",
+    "garnish": "none",
+    "omen": "Equal parts, all of them opinionated. The Chartreuse will not compromise and neither should you. This drink was built for the moment right before you say the thing you have been carrying all evening.",
+    "cost_estimate": "$16 per serving"
+  },
+  {
+    "id": "the-second-crossing",
+    "mystical_name": "The Second Crossing",
+    "real_name": "Corpse Reviver No. 2",
+    "tagline": "The dead do not stay down, and neither will you.",
+    "tier": "merchant",
+    "moods": [
+      "courageous"
+    ],
+    "ingredients": [
+      {
+        "amount": "0.75 oz",
+        "name": "Beefeater gin"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "Cointreau"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "Lillet Blanc"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "1 dash",
+        "name": "absinthe"
+      }
+    ],
+    "instructions": [
+      "Rinse a coupe with the absinthe; discard the excess.",
+      "Combine remaining ingredients in a shaker with ice.",
+      "Shake until very cold.",
+      "Strain into the prepared coupe."
+    ],
+    "glassware": "coupe",
+    "garnish": "lemon twist",
+    "omen": "What was behind you is now beside you. The absinthe is a rumor at the edge of every sip, and it will remind you of a morning you survived that you were not supposed to. You were supposed to. This drink knows it.",
+    "cost_estimate": "$15 per serving"
+  },
+  {
+    "id": "the-cane-cutters-rite",
+    "mystical_name": "The Cane Cutter's Rite",
+    "real_name": "Caipirinha",
+    "tagline": "Lime, sugar, and the resolve of a machete.",
+    "tier": "merchant",
+    "moods": [
+      "courageous",
+      "celebratory"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "cachaca"
+      },
+      {
+        "amount": "1",
+        "name": "lime, quartered"
+      },
+      {
+        "amount": "2 tsp",
+        "name": "white sugar"
+      }
+    ],
+    "instructions": [
+      "Muddle the lime quarters with sugar in a rocks glass.",
+      "Add the cachaca.",
+      "Fill with crushed ice.",
+      "Stir vigorously to combine."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "lime wheel",
+    "omen": "Crude and undeniable. The sugar submits to the lime and the lime submits to the cachaca and none of them will apologize to you in the morning. Go ahead. You did not come here to be careful.",
+    "cost_estimate": "$11 per serving"
+  },
+  {
+    "id": "the-hemingway-testament",
+    "mystical_name": "The Hemingway Testament",
+    "real_name": "Hemingway Daiquiri",
+    "tagline": "For the man who wanted his truth without sugar.",
+    "tier": "merchant",
+    "moods": [
+      "courageous",
+      "contemplative"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Plantation 3 Stars rum"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lime juice"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "fresh grapefruit juice"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "Luxardo maraschino"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker with ice.",
+      "Shake hard for 10 seconds.",
+      "Double-strain into a chilled coupe.",
+      "Serve without garnish."
+    ],
+    "glassware": "coupe",
+    "garnish": "none",
+    "omen": "Dry, tart, and honest in a way that hurts your teeth. The grapefruit is the bitterness you chose; the maraschino is the sweetness you pretend is not there. Write nothing tonight. Just drink and be still.",
+    "cost_estimate": "$14 per serving"
+  },
+  {
+    "id": "oath-of-small-mercies",
+    "mystical_name": "Oath of Small Mercies",
+    "real_name": "Penicillin",
+    "tagline": "The cure that tastes like the disease, only kinder.",
+    "tier": "merchant",
+    "moods": [
+      "weary",
+      "brooding"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Monkey Shoulder blended scotch"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "honey-ginger syrup"
+      },
+      {
+        "amount": "0.25 oz",
+        "name": "Laphroaig 10 scotch (float)"
+      }
+    ],
+    "instructions": [
+      "Combine the blended scotch, lemon, and honey-ginger syrup in a shaker with ice.",
+      "Shake until very cold.",
+      "Strain into a rocks glass over fresh ice.",
+      "Float the Laphroaig over the back of a barspoon."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "candied ginger",
+    "omen": "The ginger is the question; the smoke is the answer. You will sleep well tonight and the ache you brought with you will be halved by morning. The other half stays, but it was always yours to carry.",
+    "cost_estimate": "$16 per serving"
+  },
+  {
+    "id": "the-parish-candle",
+    "mystical_name": "The Parish Candle",
+    "real_name": "Gold Rush",
+    "tagline": "Honey and bourbon, holding a small light.",
+    "tier": "merchant",
+    "moods": [
+      "weary",
+      "amorous"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Buffalo Trace bourbon"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "honey syrup"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker with ice.",
+      "Shake until frost forms on the tin.",
+      "Strain into a rocks glass over one large cube.",
+      "No garnish needed."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "none",
+    "omen": "Amber in every direction. The honey rounds the bourbon into something almost maternal, and the lemon keeps it from becoming sentimental. You need this more than you think, and less than you fear.",
+    "cost_estimate": "$13 per serving"
+  },
+  {
+    "id": "the-landlords-reprieve",
+    "mystical_name": "The Landlord's Reprieve",
+    "real_name": "Whiskey Sour",
+    "tagline": "A stay of execution, served with froth.",
+    "tier": "merchant",
+    "moods": [
+      "weary",
+      "contemplative"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Bulleit bourbon"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "simple syrup"
+      },
+      {
+        "amount": "2 dashes",
+        "name": "Angostura bitters"
+      }
+    ],
+    "instructions": [
+      "Combine bourbon, lemon, and syrup in a shaker with ice.",
+      "Shake hard until cold.",
+      "Strain into a rocks glass over fresh ice.",
+      "Dash bitters over the top."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "lemon wheel, cherry",
+    "omen": "Sour, then sweet, then the oak underneath both like a floor you trust. You have done harder things than whatever brought you here tonight. The glass remembers even if you do not.",
+    "cost_estimate": "$12 per serving"
+  },
+  {
+    "id": "the-evening-constitution",
+    "mystical_name": "The Evening Constitution",
+    "real_name": "Americano",
+    "tagline": "A walk taken slowly, with no destination.",
+    "tier": "merchant",
+    "moods": [
+      "weary",
+      "contemplative"
+    ],
+    "ingredients": [
+      {
+        "amount": "1.5 oz",
+        "name": "Campari"
+      },
+      {
+        "amount": "1.5 oz",
+        "name": "sweet vermouth"
+      },
+      {
+        "amount": "3 oz",
+        "name": "club soda"
+      }
+    ],
+    "instructions": [
+      "Fill a highball glass with ice.",
+      "Pour in the Campari and vermouth.",
+      "Top with club soda.",
+      "Stir once and garnish."
+    ],
+    "glassware": "highball",
+    "garnish": "orange slice",
+    "omen": "Low-proof and unhurried. The bitterness is present but not insistent, like a neighbor who waves but does not cross the street. You will go to bed at a reasonable hour, and this will be its own kind of victory.",
+    "cost_estimate": "$11 per serving"
+  }
+]

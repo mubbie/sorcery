@@ -1,0 +1,547 @@
+[
+  {
+    "id": "the-unread-verdict",
+    "mystical_name": "The Unread Verdict",
+    "real_name": "Vintage Sazerac",
+    "tagline": "Rye and absinthe, sealed with wax.",
+    "tier": "archmage",
+    "moods": [
+      "brooding",
+      "contemplative"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Thomas H. Handy Sazerac rye"
+      },
+      {
+        "amount": "1 barspoon",
+        "name": "rich demerara syrup"
+      },
+      {
+        "amount": "3 dashes",
+        "name": "Peychaud's bitters"
+      },
+      {
+        "amount": "1 rinse",
+        "name": "Jade 1901 absinthe"
+      }
+    ],
+    "instructions": [
+      "Rinse a chilled rocks glass with the absinthe; discard the excess.",
+      "In a mixing glass, combine rye, syrup, and bitters with ice.",
+      "Stir for 30 rotations.",
+      "Strain into the prepared glass. No ice in the serving glass."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "lemon peel (expressed, then discarded)",
+    "omen": "Anise ghosts the rim and the rye fills the room it vacated. This drink was invented before most of your certainties, and it will outlast the rest. Sip it as a closing argument, not an opening statement.",
+    "cost_estimate": "$48 per serving"
+  },
+  {
+    "id": "the-cenobites-silence",
+    "mystical_name": "The Cenobite's Silence",
+    "real_name": "Pechuga Negroni",
+    "tagline": "A vow of smoke and bitter prayer.",
+    "tier": "archmage",
+    "moods": [
+      "brooding"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 oz",
+        "name": "Del Maguey Pechuga mezcal"
+      },
+      {
+        "amount": "1 oz",
+        "name": "Campari"
+      },
+      {
+        "amount": "1 oz",
+        "name": "Carpano Antica sweet vermouth"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a mixing glass with ice.",
+      "Stir for 25 rotations.",
+      "Strain into a rocks glass over one large hand-cut cube.",
+      "Express an orange peel and rest it on the rim."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "orange peel",
+    "omen": "The Pechuga was distilled with fruit and a whole chicken breast, which is something you now know and cannot unknow. The bitterness is Campari; the silence is everything else. Drink this alone. You will be better company afterward.",
+    "cost_estimate": "$52 per serving"
+  },
+  {
+    "id": "the-obsidian-folio",
+    "mystical_name": "The Obsidian Folio",
+    "real_name": "Charcoal Old Fashioned",
+    "tagline": "Written in ink that only appears by firelight.",
+    "tier": "archmage",
+    "moods": [
+      "brooding",
+      "courageous"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Yamazaki 12 Japanese whisky"
+      },
+      {
+        "amount": "0.25 oz",
+        "name": "activated charcoal syrup"
+      },
+      {
+        "amount": "2 dashes",
+        "name": "chocolate bitters"
+      },
+      {
+        "amount": "1 pinch",
+        "name": "smoked salt"
+      }
+    ],
+    "instructions": [
+      "Combine whisky, charcoal syrup, and bitters in a mixing glass with ice.",
+      "Stir for 30 rotations.",
+      "Strain into a rocks glass over a hand-carved ice sphere.",
+      "Finish with a pinch of smoked salt over the top."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "expressed orange peel, smoked salt rim (half)",
+    "omen": "Black as a judge's notebook and twice as revealing. The charcoal strips everything back to the whisky's skeleton, and the skeleton is more beautiful than the body ever was. You will look at something familiar and see its architecture for the first time.",
+    "cost_estimate": "$55 per serving"
+  },
+  {
+    "id": "the-coronation-of-fools",
+    "mystical_name": "The Coronation of Fools",
+    "real_name": "Vintage Champagne Cocktail",
+    "tagline": "A toast to everyone who should not be here but is.",
+    "tier": "archmage",
+    "moods": [
+      "celebratory"
+    ],
+    "ingredients": [
+      {
+        "amount": "4 oz",
+        "name": "vintage brut Champagne"
+      },
+      {
+        "amount": "1",
+        "name": "sugar cube"
+      },
+      {
+        "amount": "3 dashes",
+        "name": "Angostura bitters"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "Hennessy XO cognac"
+      }
+    ],
+    "instructions": [
+      "Place the sugar cube in a chilled flute.",
+      "Saturate it with bitters.",
+      "Pour the cognac over the sugar.",
+      "Top slowly with cold Champagne."
+    ],
+    "glassware": "flute",
+    "garnish": "long lemon twist",
+    "omen": "The sugar cube dissolves and the bitters climb through the Champagne like a rumor through a crowded room. You will raise this glass for someone who is not present, and they will know, somehow, that you did.",
+    "cost_estimate": "$62 per serving"
+  },
+  {
+    "id": "the-gold-leaf-armistice",
+    "mystical_name": "The Gold Leaf Armistice",
+    "real_name": "Gold Leaf Spritz",
+    "tagline": "Peace terms written on edible gold.",
+    "tier": "archmage",
+    "moods": [
+      "celebratory",
+      "amorous"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Chartreuse VEP Jaune"
+      },
+      {
+        "amount": "3 oz",
+        "name": "vintage brut Champagne"
+      },
+      {
+        "amount": "1 oz",
+        "name": "club soda"
+      },
+      {
+        "amount": "1 sheet",
+        "name": "edible gold leaf"
+      }
+    ],
+    "instructions": [
+      "Pour the Chartreuse into a large wine glass with ice.",
+      "Top with Champagne and soda.",
+      "Stir once, gently.",
+      "Lay the gold leaf across the surface with tweezers."
+    ],
+    "glassware": "wine glass",
+    "garnish": "edible gold leaf, lemon peel",
+    "omen": "Gold floats on gold. The Chartreuse VEP is older than most marriages and more carefully guarded, and the Champagne defers to it the way water defers to stone. You will feel, briefly, like someone whose name is remembered in rooms they have left.",
+    "cost_estimate": "$72 per serving"
+  },
+  {
+    "id": "the-terms-attached",
+    "mystical_name": "The Terms Attached",
+    "real_name": "Vintage Manhattan",
+    "tagline": "Every clause has a consequence.",
+    "tier": "archmage",
+    "moods": [
+      "contemplative",
+      "brooding"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Michter's 10-year rye"
+      },
+      {
+        "amount": "1 oz",
+        "name": "Carpano Antica sweet vermouth"
+      },
+      {
+        "amount": "2 dashes",
+        "name": "Angostura bitters"
+      },
+      {
+        "amount": "1 dash",
+        "name": "orange bitters"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a mixing glass with hand-cut ice.",
+      "Stir slowly — 40 rotations — until velvet-cold.",
+      "Strain into a chilled coupe.",
+      "Garnish with a Luxardo cherry on a pick."
+    ],
+    "glassware": "coupe",
+    "garnish": "Luxardo cherry",
+    "omen": "The rye is ten years in the asking and one sip in the answering. Oak and spice and the quiet understanding that some gifts arrive with invoices attached. Read the fine print; it is worth the price.",
+    "cost_estimate": "$48 per serving"
+  },
+  {
+    "id": "the-apothecarys-will",
+    "mystical_name": "The Apothecary's Will",
+    "real_name": "Martinez",
+    "tagline": "Left to you in a locked cabinet, with instructions.",
+    "tier": "archmage",
+    "moods": [
+      "contemplative"
+    ],
+    "ingredients": [
+      {
+        "amount": "1.5 oz",
+        "name": "Hayman's Old Tom gin"
+      },
+      {
+        "amount": "1.5 oz",
+        "name": "Carpano Antica sweet vermouth"
+      },
+      {
+        "amount": "1 barspoon",
+        "name": "Luxardo maraschino"
+      },
+      {
+        "amount": "2 dashes",
+        "name": "Angostura bitters"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a mixing glass with ice.",
+      "Stir for 30 rotations until silky.",
+      "Strain into a chilled Nick and Nora glass.",
+      "Express a lemon peel over the surface and discard."
+    ],
+    "glassware": "Nick & Nora",
+    "garnish": "lemon peel (expressed and discarded)",
+    "omen": "Older than the Martini and less interested in your opinion of it. The Old Tom gin is sweetened, the vermouth is serious, and the maraschino is the clause in the will that nobody expected. You are inheriting something tonight. Drink carefully.",
+    "cost_estimate": "$44 per serving"
+  },
+  {
+    "id": "the-final-catalogue",
+    "mystical_name": "The Final Catalogue",
+    "real_name": "Chartreuse VEP Last Word",
+    "tagline": "The last entry in a ledger no one else can read.",
+    "tier": "archmage",
+    "moods": [
+      "contemplative",
+      "courageous"
+    ],
+    "ingredients": [
+      {
+        "amount": "0.75 oz",
+        "name": "Chartreuse VEP Verte"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "Monkey 47 gin"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "Luxardo maraschino"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lime juice"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker with ice.",
+      "Shake until extremely cold.",
+      "Double-strain into a chilled coupe.",
+      "Serve without garnish."
+    ],
+    "glassware": "coupe",
+    "garnish": "none",
+    "omen": "The VEP has aged in oak for longer than most New Year's resolutions survive, and it shows. Herbal, insistent, and entirely sure of itself. You will close a chapter tonight, and the closing will feel like opening a window.",
+    "cost_estimate": "$58 per serving"
+  },
+  {
+    "id": "the-orchid-meridian",
+    "mystical_name": "The Orchid Meridian",
+    "real_name": "Yamazaki Rose & Lychee",
+    "tagline": "A longitude only lovers know.",
+    "tier": "archmage",
+    "moods": [
+      "amorous"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Yamazaki 12 Japanese whisky"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lychee juice"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "rose water syrup"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "fresh lemon juice"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker with ice.",
+      "Shake gently — 8 seconds, no more. This drink does not like to be rushed.",
+      "Double-strain into a chilled coupe.",
+      "Float a single rose petal on the surface."
+    ],
+    "glassware": "coupe",
+    "garnish": "edible rose petal",
+    "omen": "Rose and lychee over Japanese oak, and the combination should not work but it does, the way some people should not work but do. You will touch someone's hand tonight, or you will wish you had. The whisky will not tell you which.",
+    "cost_estimate": "$52 per serving"
+  },
+  {
+    "id": "the-violet-compendium",
+    "mystical_name": "The Violet Compendium",
+    "real_name": "Don Julio Violet",
+    "tagline": "Purple ink on vellum, still wet.",
+    "tier": "archmage",
+    "moods": [
+      "amorous",
+      "contemplative"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Don Julio 1942 tequila"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "Creme de Violette"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lime juice"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "agave syrup"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker with ice.",
+      "Shake until very cold.",
+      "Double-strain into a chilled coupe.",
+      "Express a lime peel over the surface."
+    ],
+    "glassware": "coupe",
+    "garnish": "edible violet",
+    "omen": "Violet and agave in a frequency only certain ears can hear. The tequila is 30 months in the barrel and the Creme de Violette has not changed its recipe since 1845. Between them they know more about patience than you do. Listen.",
+    "cost_estimate": "$58 per serving"
+  },
+  {
+    "id": "the-closing-argument",
+    "mystical_name": "The Closing Argument",
+    "real_name": "Improved Whiskey Cocktail",
+    "tagline": "No rebuttal. No appeal. No ice.",
+    "tier": "archmage",
+    "moods": [
+      "courageous",
+      "contemplative"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Michter's 10-year bourbon"
+      },
+      {
+        "amount": "0.25 oz",
+        "name": "Luxardo maraschino"
+      },
+      {
+        "amount": "1 barspoon",
+        "name": "rich demerara syrup"
+      },
+      {
+        "amount": "2 dashes",
+        "name": "Angostura bitters"
+      },
+      {
+        "amount": "1 rinse",
+        "name": "Jade 1901 absinthe"
+      }
+    ],
+    "instructions": [
+      "Rinse a rocks glass with absinthe; discard the excess.",
+      "Combine remaining ingredients in a mixing glass with ice.",
+      "Stir for 30 rotations.",
+      "Strain into the prepared glass over one large hand-cut cube."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "lemon peel (expressed and discarded)",
+    "omen": "Pre-Prohibition and unimpressed by everything that followed. The absinthe is a ghost in the room; the bourbon is the room. You will make a decision tonight that is ten years overdue, and the drink will not congratulate you, but it will nod.",
+    "cost_estimate": "$52 per serving"
+  },
+  {
+    "id": "the-siege-perpetual",
+    "mystical_name": "The Siege Perpetual",
+    "real_name": "Overproof Sazerac",
+    "tagline": "A fortress that drinks like a fire.",
+    "tier": "archmage",
+    "moods": [
+      "courageous",
+      "brooding"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Thomas H. Handy Sazerac rye (barrel proof)"
+      },
+      {
+        "amount": "1 barspoon",
+        "name": "rich demerara syrup"
+      },
+      {
+        "amount": "4 dashes",
+        "name": "Peychaud's bitters"
+      },
+      {
+        "amount": "1 rinse",
+        "name": "Kubler absinthe"
+      }
+    ],
+    "instructions": [
+      "Rinse a chilled rocks glass with absinthe; discard the excess.",
+      "In a mixing glass, muddle the syrup and bitters.",
+      "Add the rye and ice; stir for 25 rotations.",
+      "Strain into the prepared glass. No ice."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "lemon peel (expressed, then discarded)",
+    "omen": "Barrel-proof rye at the gate and absinthe holding the walls. This drink does not negotiate, and tonight neither should you. Whatever you have been circling, walk toward it. The rye has been waiting longer than you have.",
+    "cost_estimate": "$56 per serving"
+  },
+  {
+    "id": "the-abbey-bell",
+    "mystical_name": "The Abbey Bell",
+    "real_name": "Aged Rum Toddy",
+    "tagline": "Vespers ring. The day is finally done.",
+    "tier": "archmage",
+    "moods": [
+      "weary"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Plantation XO rum"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "Benedictine"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "honey syrup"
+      },
+      {
+        "amount": "3 oz",
+        "name": "hot water"
+      }
+    ],
+    "instructions": [
+      "Warm a heatproof glass with hot water; discard.",
+      "Add rum, Benedictine, lemon, and honey syrup.",
+      "Top with hot water and stir gently.",
+      "Garnish and drink with both hands."
+    ],
+    "glassware": "heatproof glass",
+    "garnish": "cinnamon stick, star anise",
+    "omen": "The rum is twenty years old and has nothing left to prove. The Benedictine hums a hymn you half-remember, and the honey agrees. You have earned this, though not in the way you think. Rest now. The bell tolls for no one tonight.",
+    "cost_estimate": "$44 per serving"
+  },
+  {
+    "id": "the-winterbourne-remedy",
+    "mystical_name": "The Winterbourne Remedy",
+    "real_name": "XO Cognac Hot Chocolate",
+    "tagline": "Prescribed for winters of the soul.",
+    "tier": "archmage",
+    "moods": [
+      "weary",
+      "amorous"
+    ],
+    "ingredients": [
+      {
+        "amount": "1.5 oz",
+        "name": "Remy Martin XO cognac"
+      },
+      {
+        "amount": "6 oz",
+        "name": "rich hot chocolate"
+      },
+      {
+        "amount": "1 barspoon",
+        "name": "vanilla extract"
+      },
+      {
+        "amount": "1 pinch",
+        "name": "fleur de sel"
+      }
+    ],
+    "instructions": [
+      "Prepare rich hot chocolate with whole milk and dark chocolate.",
+      "Pour the cognac into a warmed mug.",
+      "Add the hot chocolate and vanilla.",
+      "Stir gently and finish with a pinch of fleur de sel."
+    ],
+    "glassware": "mug",
+    "garnish": "whipped cream, grated dark chocolate",
+    "omen": "Chocolate and brandy and the particular mercy of salt on something sweet. This drink does not ask you to be brave or clever or even awake for much longer. It asks only that you be warm, and that is enough.",
+    "cost_estimate": "$46 per serving (from a $200 bottle)"
+  }
+]

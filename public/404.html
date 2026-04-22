@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sorcery</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0a0705">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink:           #0a0705;
+  --parchment:     #e9dcc0;
+  --parchment-dim: #b9ab8c;
+  --candle:        #f5c96b;
+  --candle-deep:   #d49a3a;
+  --line:          rgba(201, 183, 141, 0.25);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--ink);
+  color: var(--parchment);
+  font-family: 'Cormorant Garamond', serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 100;
+  background:
+    radial-gradient(ellipse 40% 60% at 15% 10%, rgba(245,201,107,0.12), transparent 60%),
+    radial-gradient(ellipse 40% 60% at 85% 10%, rgba(245,201,107,0.10), transparent 60%),
+    radial-gradient(ellipse 60% 40% at 50% 100%, rgba(125,36,26,0.15), transparent 70%),
+    radial-gradient(ellipse 120% 100% at 50% 50%, transparent 40%, rgba(0,0,0,0.8) 100%);
+  animation: flicker 5s ease-in-out infinite;
+}
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 101;
+  opacity: 0.08;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/></svg>");
+}
+
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  8%       { opacity: 0.92; }
+  12%      { opacity: 1; }
+  45%      { opacity: 0.96; }
+  50%      { opacity: 1; }
+  78%      { opacity: 0.88; }
+  82%      { opacity: 1; }
+}
+
+.chamber {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 32px;
+  max-width: 600px;
+}
+
+.crest {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 18px;
+  color: var(--candle);
+  letter-spacing: 1.5em;
+  margin-bottom: 32px;
+  animation: glow-pulse 4s ease-in-out infinite;
+}
+@keyframes glow-pulse {
+  0%, 100% { text-shadow: 0 0 8px rgba(245,201,107,0.3); }
+  50%      { text-shadow: 0 0 16px rgba(245,201,107,0.5); }
+}
+
+.chapter {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 14px;
+  letter-spacing: 0.3em;
+  color: var(--candle-deep);
+  margin-bottom: 24px;
+}
+
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: clamp(28px, 4vw, 44px);
+  letter-spacing: 0.04em;
+  color: var(--parchment);
+  line-height: 1.35;
+  text-shadow:
+    0 2px 4px rgba(0,0,0,0.8),
+    0 0 30px rgba(245,201,107,0.1);
+  margin-bottom: 28px;
+}
+
+.explanation {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 19px;
+  line-height: 1.65;
+  color: var(--parchment-dim);
+  max-width: 580px;
+  margin: 0 auto 40px;
+}
+
+.sigil-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 0 auto 32px;
+  max-width: 300px;
+}
+.sigil-divider::before, .sigil-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(201,183,141,0.55), transparent);
+}
+.sigil-divider span {
+  font-size: 14px;
+  color: var(--candle-deep);
+}
+
+.return-link {
+  display: inline-block;
+  font-family: 'IM Fell English SC', serif;
+  font-size: 13px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--candle);
+  text-decoration: none;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 16px 32px;
+  transition: all 0.3s ease;
+}
+.return-link:hover {
+  letter-spacing: 0.4em;
+  border-color: var(--candle);
+  color: var(--parchment);
+}
+.return-link:focus-visible {
+  outline: 2px solid var(--candle);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body::before { animation: none; }
+  .crest { animation: none; }
+}
+
+@media (max-width: 540px) {
+  .crest { letter-spacing: 1em; }
+}
+</style>
+</head>
+<body>
+<main class="chamber">
+  <div class="crest" aria-hidden="true">&#9737;&#9789;&#9791;</div>
+  <p class="chapter">IV &middot; IV</p>
+  <h1>The page you seek<br>is not in this grimoire.</h1>
+  <p class="explanation">Perhaps the sorcerer misplaced it. Perhaps it was never written. Perhaps you were meant to find something else entirely.</p>
+  <div class="sigil-divider" aria-hidden="true"><span>&#9876;</span></div>
+  <a href="/" class="return-link">&mdash; Return to the apothecary &mdash;</a>
+</main>
+</body>
+</html>

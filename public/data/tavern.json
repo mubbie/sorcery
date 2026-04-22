@@ -1,0 +1,576 @@
+[
+  {
+    "id": "the-coalmans-receipt",
+    "mystical_name": "The Coalman's Receipt",
+    "real_name": "Rum & Coffee",
+    "tagline": "Ink and heat in equal measure.",
+    "tier": "tavern",
+    "moods": [
+      "brooding"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "dark rum"
+      },
+      {
+        "amount": "4 oz",
+        "name": "hot black coffee"
+      },
+      {
+        "amount": "1 tsp",
+        "name": "brown sugar"
+      }
+    ],
+    "instructions": [
+      "Pour the rum into a warmed mug.",
+      "Add the hot coffee and brown sugar.",
+      "Stir until the sugar dissolves.",
+      "Drink it black — no cream, no apologies."
+    ],
+    "glassware": "mug",
+    "garnish": "none",
+    "omen": "The warmth is not a kindness; it is a negotiation. You will taste the char before the sweet, and in the morning you will remember something you had been trying to forget. Let it surface.",
+    "cost_estimate": "$5 per serving"
+  },
+  {
+    "id": "the-undertow",
+    "mystical_name": "The Undertow",
+    "real_name": "Whiskey & Cola",
+    "tagline": "The current beneath every quiet evening.",
+    "tier": "tavern",
+    "moods": [
+      "brooding"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "blended whiskey"
+      },
+      {
+        "amount": "5 oz",
+        "name": "cola"
+      },
+      {
+        "amount": "1",
+        "name": "lime wedge"
+      }
+    ],
+    "instructions": [
+      "Fill a highball glass with ice.",
+      "Pour in the whiskey.",
+      "Top with cola and stir once.",
+      "Squeeze the lime wedge over the top and drop it in."
+    ],
+    "glassware": "highball",
+    "garnish": "lime wedge",
+    "omen": "There is no complexity here, and that is the point. The cola sweetens what the whiskey darkens. By the second glass you will have stopped explaining yourself to no one.",
+    "cost_estimate": "$6 per serving"
+  },
+  {
+    "id": "the-soot-warrant",
+    "mystical_name": "The Soot Warrant",
+    "real_name": "Dark Rum & Black Tea",
+    "tagline": "Served at the hour the fireplace dies.",
+    "tier": "tavern",
+    "moods": [
+      "brooding",
+      "contemplative"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "dark rum"
+      },
+      {
+        "amount": "4 oz",
+        "name": "strong black tea, cooled"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "simple syrup"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "fresh lemon juice"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a shaker with ice.",
+      "Shake briefly until cold.",
+      "Strain into a rocks glass over fresh ice.",
+      "Squeeze a lemon wedge over the top."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "lemon wedge",
+    "omen": "Tannin and molasses, conspiring. The tea grounds the rum the way old habits ground a restless mind. You will sit longer than you planned, and the sitting will be the remedy.",
+    "cost_estimate": "$5 per serving"
+  },
+  {
+    "id": "the-penny-reel",
+    "mystical_name": "The Penny Reel",
+    "real_name": "Vodka Cranberry",
+    "tagline": "Cheap joy is still joy.",
+    "tier": "tavern",
+    "moods": [
+      "celebratory"
+    ],
+    "ingredients": [
+      {
+        "amount": "1.5 oz",
+        "name": "well vodka"
+      },
+      {
+        "amount": "5 oz",
+        "name": "cranberry juice"
+      },
+      {
+        "amount": "1",
+        "name": "lime wedge"
+      }
+    ],
+    "instructions": [
+      "Fill a highball glass with ice.",
+      "Pour in the vodka.",
+      "Top with cranberry juice and stir gently.",
+      "Squeeze the lime wedge and drop it in."
+    ],
+    "glassware": "highball",
+    "garnish": "lime wedge",
+    "omen": "Small fortunes only. The tartness catches you mid-laugh and that is exactly when it should arrive. Whoever texted you an hour ago can wait until morning.",
+    "cost_estimate": "$6 per serving"
+  },
+  {
+    "id": "thirteenth-toast",
+    "mystical_name": "Thirteenth Toast",
+    "real_name": "Mimosa",
+    "tagline": "One too many, and not the last.",
+    "tier": "tavern",
+    "moods": [
+      "celebratory",
+      "amorous"
+    ],
+    "ingredients": [
+      {
+        "amount": "3 oz",
+        "name": "cheap sparkling wine"
+      },
+      {
+        "amount": "3 oz",
+        "name": "orange juice"
+      }
+    ],
+    "instructions": [
+      "Pour the orange juice into a flute.",
+      "Top slowly with sparkling wine.",
+      "Do not stir — let the bubbles do the work."
+    ],
+    "glassware": "flute",
+    "garnish": "none",
+    "omen": "You are celebrating something that has not happened yet, and that is the bravest kind of toast. The bubbles are counting down, though to what, neither of you can say.",
+    "cost_estimate": "$5 per serving"
+  },
+  {
+    "id": "the-tin-whistle",
+    "mystical_name": "The Tin Whistle",
+    "real_name": "Lynchburg Lemonade",
+    "tagline": "A bright noise from a dark corner.",
+    "tier": "tavern",
+    "moods": [
+      "celebratory"
+    ],
+    "ingredients": [
+      {
+        "amount": "1.5 oz",
+        "name": "Tennessee whiskey"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "triple sec"
+      },
+      {
+        "amount": "1 oz",
+        "name": "sweet and sour mix"
+      },
+      {
+        "amount": "4 oz",
+        "name": "lemon-lime soda"
+      }
+    ],
+    "instructions": [
+      "Fill a highball glass with ice.",
+      "Add whiskey, triple sec, and sour mix.",
+      "Top with lemon-lime soda.",
+      "Stir once and serve with a straw."
+    ],
+    "glassware": "highball",
+    "garnish": "lemon wheel",
+    "omen": "Clarity disguised as carelessness. The soda lifts the whiskey into something almost innocent, and for one evening you will believe that you have gotten away with it. You have not, but the evening will be worth the cost.",
+    "cost_estimate": "$7 per serving"
+  },
+  {
+    "id": "the-long-reckoning",
+    "mystical_name": "The Long Reckoning",
+    "real_name": "7 & 7",
+    "tagline": "Two sevens and the truth between them.",
+    "tier": "tavern",
+    "moods": [
+      "contemplative"
+    ],
+    "ingredients": [
+      {
+        "amount": "1.5 oz",
+        "name": "Seagram's 7 whiskey"
+      },
+      {
+        "amount": "5 oz",
+        "name": "7-Up"
+      }
+    ],
+    "instructions": [
+      "Fill a highball glass with ice.",
+      "Pour in the whiskey.",
+      "Top with 7-Up and stir once.",
+      "Serve without ceremony."
+    ],
+    "glassware": "highball",
+    "garnish": "none",
+    "omen": "No one orders this drink to impress. The sweetness is honest about itself, which is more than most things manage. Sit with that for a while.",
+    "cost_estimate": "$6 per serving"
+  },
+  {
+    "id": "the-surveyors-noon",
+    "mystical_name": "The Surveyor's Noon",
+    "real_name": "Gin & Tonic",
+    "tagline": "A measurement taken at the clearest hour.",
+    "tier": "tavern",
+    "moods": [
+      "contemplative",
+      "celebratory"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "rail gin"
+      },
+      {
+        "amount": "4 oz",
+        "name": "tonic water"
+      },
+      {
+        "amount": "1",
+        "name": "lime wedge"
+      }
+    ],
+    "instructions": [
+      "Fill a highball glass with ice to the brim.",
+      "Pour in the gin.",
+      "Add tonic water slowly down the side of the glass.",
+      "Squeeze the lime wedge and drop it in."
+    ],
+    "glassware": "highball",
+    "garnish": "lime wedge",
+    "omen": "The quinine hums. Beneath the bitter there is a botanist's garden you will never visit, but you will know it by its outline. Order a second only if the first one answered your question.",
+    "cost_estimate": "$6 per serving"
+  },
+  {
+    "id": "a-rose-by-lantern",
+    "mystical_name": "A Rose by Lantern",
+    "real_name": "Amaretto Sour",
+    "tagline": "Sweetness that knows exactly what it is doing.",
+    "tier": "tavern",
+    "moods": [
+      "amorous"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "amaretto"
+      },
+      {
+        "amount": "3 oz",
+        "name": "sweet and sour mix"
+      },
+      {
+        "amount": "1",
+        "name": "maraschino cherry"
+      }
+    ],
+    "instructions": [
+      "Fill a rocks glass with ice.",
+      "Pour in the amaretto and sour mix.",
+      "Stir gently to combine.",
+      "Drop in the cherry."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "maraschino cherry",
+    "omen": "The almond will remind you of someone's kitchen, and the someone will not be who you expect. Sweetness as memory — dangerous, imprecise, and impossible to set down once lifted.",
+    "cost_estimate": "$7 per serving"
+  },
+  {
+    "id": "the-painted-morning",
+    "mystical_name": "The Painted Morning",
+    "real_name": "Tequila Sunrise",
+    "tagline": "Grenadine sinks; hope floats.",
+    "tier": "tavern",
+    "moods": [
+      "amorous",
+      "celebratory"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "inexpensive tequila"
+      },
+      {
+        "amount": "4 oz",
+        "name": "orange juice"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "grenadine"
+      }
+    ],
+    "instructions": [
+      "Fill a highball glass with ice.",
+      "Pour in the tequila and orange juice; stir once.",
+      "Slowly pour the grenadine down the inside of the glass.",
+      "Let it settle — do not stir."
+    ],
+    "glassware": "highball",
+    "garnish": "orange slice",
+    "omen": "Watch the red climb. Something you dismissed as sentimental will prove to be the most accurate thing said to you this week. The orange is a disguise; the grenadine is the confession.",
+    "cost_estimate": "$6 per serving"
+  },
+  {
+    "id": "the-ironmonger",
+    "mystical_name": "The Ironmonger",
+    "real_name": "Jack & Ginger",
+    "tagline": "Built for the hand, not the eye.",
+    "tier": "tavern",
+    "moods": [
+      "courageous"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "Tennessee whiskey"
+      },
+      {
+        "amount": "4 oz",
+        "name": "ginger ale"
+      },
+      {
+        "amount": "1",
+        "name": "lime wedge"
+      }
+    ],
+    "instructions": [
+      "Fill a rocks glass with ice.",
+      "Pour in the whiskey.",
+      "Top with ginger ale.",
+      "Squeeze the lime over the top and drop it in."
+    ],
+    "glassware": "rocks glass",
+    "garnish": "lime wedge",
+    "omen": "The ginger is a dare; the whiskey is the follow-through. You will say yes to something before this glass is empty, and you will mean it more than usual.",
+    "cost_estimate": "$7 per serving"
+  },
+  {
+    "id": "the-copper-mule",
+    "mystical_name": "The Copper Mule",
+    "real_name": "Moscow Mule",
+    "tagline": "Cold metal, sharp bite, warm consequences.",
+    "tier": "tavern",
+    "moods": [
+      "courageous",
+      "celebratory"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "well vodka"
+      },
+      {
+        "amount": "4 oz",
+        "name": "ginger beer"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "fresh lime juice"
+      }
+    ],
+    "instructions": [
+      "Fill a copper mug or highball glass with ice.",
+      "Add the vodka and lime juice.",
+      "Top with ginger beer.",
+      "Stir gently and serve."
+    ],
+    "glassware": "copper mug",
+    "garnish": "lime wheel",
+    "omen": "The ginger arrives first, a bright kick that asks nothing of you but attention. By the third sip you will have made a plan. Whether you follow it is between you and the second round.",
+    "cost_estimate": "$7 per serving"
+  },
+  {
+    "id": "the-wreckers-ballast",
+    "mystical_name": "The Wrecker's Ballast",
+    "real_name": "Long Island Iced Tea",
+    "tagline": "Five spirits walk into a glass. None leave.",
+    "tier": "tavern",
+    "moods": [
+      "courageous"
+    ],
+    "ingredients": [
+      {
+        "amount": "0.5 oz",
+        "name": "well vodka"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "rail gin"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "cheap rum"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "inexpensive tequila"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "triple sec"
+      },
+      {
+        "amount": "1 oz",
+        "name": "sweet and sour mix"
+      },
+      {
+        "amount": "2 oz",
+        "name": "cola"
+      }
+    ],
+    "instructions": [
+      "Combine all spirits and sour mix in a shaker with ice.",
+      "Shake briefly and pour into a tall glass with fresh ice.",
+      "Top with cola — just enough for color.",
+      "Serve with a straw and a lack of regret."
+    ],
+    "glassware": "collins",
+    "garnish": "lemon wedge",
+    "omen": "Five currents pulling in one direction. You will not taste the ruin until it has already seated itself comfortably. This is a drink for the bold and the recently decided. Do not order a second unless you have cleared your morning.",
+    "cost_estimate": "$8 per serving"
+  },
+  {
+    "id": "the-travellers-due",
+    "mystical_name": "The Traveller's Due",
+    "real_name": "Hot Whiskey & Lemon",
+    "tagline": "A roof for the traveller, a fire for the bone.",
+    "tier": "tavern",
+    "moods": [
+      "weary"
+    ],
+    "ingredients": [
+      {
+        "amount": "1.5 oz",
+        "name": "blended whiskey"
+      },
+      {
+        "amount": "1 tsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "0.5 oz",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": "4 oz",
+        "name": "hot water"
+      }
+    ],
+    "instructions": [
+      "Warm a mug with hot water; discard the water.",
+      "Add whiskey, sugar, and lemon juice.",
+      "Top with fresh hot water and stir until dissolved.",
+      "Drink slowly while something heavy leaves your shoulders."
+    ],
+    "glassware": "mug",
+    "garnish": "lemon wheel",
+    "omen": "The cold retreats in stages — throat, then chest, then the long quiet behind the eyes. Tomorrow will be kinder than today, if only by a margin too small to name.",
+    "cost_estimate": "$6 per serving"
+  },
+  {
+    "id": "the-lamplighter",
+    "mystical_name": "The Lamplighter",
+    "real_name": "Rum & Ginger",
+    "tagline": "One by one the streetlights come on.",
+    "tier": "tavern",
+    "moods": [
+      "weary",
+      "contemplative"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "cheap rum"
+      },
+      {
+        "amount": "4 oz",
+        "name": "ginger ale"
+      },
+      {
+        "amount": "1",
+        "name": "lime wedge"
+      }
+    ],
+    "instructions": [
+      "Fill a highball glass with ice.",
+      "Pour in the rum.",
+      "Top with ginger ale.",
+      "Squeeze the lime and drop it in."
+    ],
+    "glassware": "highball",
+    "garnish": "lime wedge",
+    "omen": "A small warmth in each sip, the kind that asks nothing of you. The ginger hums in the background like a streetlamp you pass every night but have never looked up at. Tonight you will look up.",
+    "cost_estimate": "$6 per serving"
+  },
+  {
+    "id": "the-dockside-grog",
+    "mystical_name": "The Dockside Grog",
+    "real_name": "Grog",
+    "tagline": "What the Navy knew and the officers pretended not to.",
+    "tier": "tavern",
+    "moods": [
+      "weary",
+      "courageous"
+    ],
+    "ingredients": [
+      {
+        "amount": "2 oz",
+        "name": "dark rum"
+      },
+      {
+        "amount": "3 oz",
+        "name": "hot water"
+      },
+      {
+        "amount": "0.75 oz",
+        "name": "fresh lime juice"
+      },
+      {
+        "amount": "1 tsp",
+        "name": "brown sugar"
+      }
+    ],
+    "instructions": [
+      "Dissolve the sugar in the hot water.",
+      "Add the rum and lime juice.",
+      "Stir once and pour into a warmed mug.",
+      "Drink before it cools — grog does not improve with patience."
+    ],
+    "glassware": "mug",
+    "garnish": "lime wheel",
+    "omen": "Salt-wind, tar-rope, and the promise of port. This drink was built for the end of a watch, and your day was a watch whether you named it that or not. Rest now; the tide changes in the small hours.",
+    "cost_estimate": "$5 per serving"
+  }
+]

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 140">
+  <defs>
+    <linearGradient id="mb-body" x1="0" x2="1">
+      <stop offset="0" stop-color="#4a2e1f"></stop>
+      <stop offset="0.5" stop-color="#6b3f2a"></stop>
+      <stop offset="1" stop-color="#2e1a10"></stop>
+    </linearGradient>
+  </defs>
+  
+  <rect x="32" y="2" width="16" height="14" fill="#2a1f15" stroke="#d49a3a" stroke-width="0.4"></rect>
+  <rect x="34" y="14" width="12" height="6" fill="#3a2a1a"></rect>
+  
+  <path d="M28 20 L52 20 L56 36 Q64 44 64 58 L64 130 Q64 136 58 136 L22 136 Q16 136 16 130 L16 58 Q16 44 24 36 Z" fill="url(#mb-body)" stroke="#d49a3a" stroke-width="0.6" opacity="0.95"></path>
+  
+  <path d="M17 52 Q40 55 63 52" fill="none" stroke="rgba(245,201,107,0.25)" stroke-width="0.5"></path>
+  
+  <rect x="20" y="72" width="40" height="46" fill="#e9dcc0" stroke="#8a6a3a" stroke-width="0.5"></rect>
+  <g transform="translate(40 82)" stroke="#3a2a1a" stroke-width="0.5" fill="none" stroke-linecap="round">
+    <path d="M -3 -3 Q 0 -5 3 -3 Q 2 0 0 2 Q -2 0 -3 -3 Z" fill="#3a2a1a" opacity="0.85"></path>
+    <path d="M 0 2 L 0 5"></path>
+  </g>
+  <line x1="24" y1="90" x2="56" y2="90" stroke="#8a6a3a" stroke-width="0.3"></line>
+  <text x="40" y="100" text-anchor="middle" font-family="&#39;IM Fell English SC&#39;, serif" font-size="5" fill="#3a2a1a" textLength="26" lengthAdjust="spacingAndGlyphs">FAIR COIN</text>
+  <text x="40" y="109" text-anchor="middle" font-family="&#39;IM Fell English SC&#39;, serif" font-size="5" fill="#3a2a1a" textLength="26" lengthAdjust="spacingAndGlyphs">FINE CRAFT</text>
+  <line x1="24" y1="113" x2="56" y2="113" stroke="#8a6a3a" stroke-width="0.3"></line>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -15 60 125">
+  <defs>
+    <linearGradient id="ph-weary-liq" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8a878"></stop>
+      <stop offset="0.4" stop-color="#7a7a4a"></stop>
+      <stop offset="1" stop-color="#4a4528"></stop>
+    </linearGradient>
+  </defs>
+  
+  <g>
+    <path d="M30 10 L30 -8" stroke="#6a5028" stroke-width="0.8" stroke-linecap="round"></path>
+    <g stroke="#4a6a3a" stroke-width="0.9" stroke-linecap="round" fill="none">
+      <path d="M30 -8 L26 -11"></path><path d="M30 -8 L34 -11"></path>
+      <path d="M30 -5 L25 -7"></path><path d="M30 -5 L35 -7"></path>
+      <path d="M30 -2 L24 -3"></path><path d="M30 -2 L36 -3"></path>
+      <path d="M30 1 L24 1"></path><path d="M30 1 L36 1"></path>
+      <path d="M30 4 L25 5"></path><path d="M30 4 L35 5"></path>
+      <path d="M30 7 L26 8.5"></path><path d="M30 7 L34 8.5"></path>
+    </g>
+    <g stroke="#8aa860" stroke-width="0.5" stroke-linecap="round" fill="none" opacity="0.8">
+      <path d="M30 -8 L26 -11"></path><path d="M30 -5 L25 -7"></path>
+      <path d="M30 -2 L24 -3"></path><path d="M30 1 L36 1"></path>
+      <path d="M30 4 L25 5"></path>
+    </g>
+  </g>
+  
+  <path d="M22 13 L38 13" stroke="#8a6a3a" stroke-width="0.8"></path>
+  <path d="M22 15 L38 15" stroke="#8a6a3a" stroke-width="0.5" opacity="0.7"></path>
+  
+  <rect x="22" y="8" width="16" height="12" fill="#5a4528" rx="0.5"></rect>
+  <ellipse cx="30" cy="8" rx="8" ry="2" fill="#4a3518"></ellipse>
+  
+  <path d="M14 22 L14 30 Q14 36 22 36 L22 82 Q22 96 30 96 Q38 96 38 82 L38 36 Q46 36 46 30 L46 22 Z" fill="url(#ph-weary-liq)"></path>
+  
+  <path d="M22 84 Q30 88 38 84 L38 94 Q30 96 22 94 Z" fill="#2a2818" opacity="0.5"></path>
+  <circle cx="26" cy="88" r="0.8" fill="#5a5a38" opacity="0.5"></circle>
+  <circle cx="34" cy="90" r="0.6" fill="#5a5a38" opacity="0.5"></circle>
+  <circle cx="30" cy="86" r="0.5" fill="#5a5a38" opacity="0.4"></circle>
+  
+  <path d="M14 22 L14 30 Q14 36 22 36 L22 82 Q22 96 30 96 Q38 96 38 82 L38 36 Q46 36 46 30 L46 22 Z" fill="none" stroke="#d49a3a" stroke-width="0.7"></path>
+  <path d="M17 34 Q17 40 22 42" fill="none" stroke="#fff" stroke-width="0.7" opacity="0.25"></path>
+</svg>

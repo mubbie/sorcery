@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 110">
+  <defs>
+    <linearGradient id="ph-cont-liq" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a05a20"></stop>
+      <stop offset="0.3" stop-color="#6a2f12"></stop>
+      <stop offset="1" stop-color="#2a1008"></stop>
+    </linearGradient>
+  </defs>
+  
+  <rect x="22" y="6" width="16" height="14" fill="#3a2418" rx="0.5"></rect>
+  <rect x="22" y="12" width="16" height="2" fill="#8a6a3a"></rect>
+  <ellipse cx="30" cy="6" rx="8" ry="2" fill="#2a1812"></ellipse>
+  <path d="M24 8 L36 8 M24 18 L36 18" stroke="#1a100a" stroke-width="0.4" opacity="0.6"></path>
+  
+  <path d="M18 22 L18 30 Q18 36 24 36 L24 90 Q24 98 30 98 Q36 98 36 90 L36 36 Q42 36 42 30 L42 22 Z" fill="url(#ph-cont-liq)"></path>
+  
+  <path d="M18 22 L18 30 Q18 36 24 36 L24 90 Q24 98 30 98 Q36 98 36 90 L36 36 Q42 36 42 30 L42 22 Z" fill="none" stroke="#d49a3a" stroke-width="0.7"></path>
+  <path d="M21 30 Q21 36 25 38" fill="none" stroke="#fff" stroke-width="0.6" opacity="0.12"></path>
+</svg>

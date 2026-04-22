@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 160">
+  <defs>
+    <linearGradient id="ab-body" x1="0" x2="1">
+      <stop offset="0" stop-color="#1a120a"></stop>
+      <stop offset="0.5" stop-color="#3a2818"></stop>
+      <stop offset="1" stop-color="#0d0806"></stop>
+    </linearGradient>
+  </defs>
+  
+  <polygon points="33,2 47,2 50,10 45,18 35,18 30,10" fill="#5a4528" stroke="#d49a3a" stroke-width="0.4"></polygon>
+  <polygon points="33,2 40,6 47,2 44,10 40,12 36,10" fill="#d49a3a" opacity="0.35"></polygon>
+  <rect x="34" y="18" width="12" height="8" fill="#2a1f15"></rect>
+  
+  <path d="M30 26 L50 26 L52 40 L58 54 Q62 64 62 80 L62 148 Q62 154 56 154 L24 154 Q18 154 18 148 L18 80 Q18 64 22 54 L28 40 Z" fill="url(#ab-body)" stroke="#d49a3a" stroke-width="0.6"></path>
+  <path d="M19 70 Q40 74 61 70" fill="none" stroke="rgba(245,201,107,0.3)" stroke-width="0.5"></path>
+  
+  <rect x="22" y="92" width="36" height="50" fill="#e9dcc0" stroke="#8a6a3a" stroke-width="0.5"></rect>
+  <rect x="24" y="94" width="32" height="46" fill="none" stroke="#8a6a3a" stroke-width="0.3"></rect>
+  <g transform="translate(40 104)" stroke="#1a120a" stroke-width="0.5" fill="none" stroke-linecap="round">
+    <polygon points="0,-4 3.5,2 -3.5,2" fill="#1a120a" opacity="0.9"></polygon>
+    <line x1="-3.5" y1="-0.5" x2="3.5" y2="-0.5" stroke="#e9dcc0" stroke-width="0.3"></line>
+  </g>
+  <line x1="27" y1="112" x2="53" y2="112" stroke="#8a6a3a" stroke-width="0.3"></line>
+  <text x="40" y="122" text-anchor="middle" font-family="&#39;IM Fell English SC&#39;, serif" font-size="5" fill="#3a2a1a" textLength="22" lengthAdjust="spacingAndGlyphs">DEEP</text>
+  <text x="40" y="130" text-anchor="middle" font-family="&#39;IM Fell English SC&#39;, serif" font-size="5" fill="#3a2a1a" textLength="26" lengthAdjust="spacingAndGlyphs">POCKETS</text>
+  <line x1="27" y1="134" x2="53" y2="134" stroke="#8a6a3a" stroke-width="0.3"></line>
+</svg>

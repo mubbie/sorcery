@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 110">
+  <defs>
+    <radialGradient id="ph-amor-liq" cx="0.5" cy="0.6" r="0.7">
+      <stop offset="0" stop-color="#f5b8c4"></stop>
+      <stop offset="0.6" stop-color="#d46878"></stop>
+      <stop offset="1" stop-color="#7a2838"></stop>
+    </radialGradient>
+  </defs>
+  
+  <rect x="24" y="6" width="12" height="12" fill="#5a3828" rx="0.5"></rect>
+  <ellipse cx="30" cy="6" rx="6" ry="1.5" fill="#4a2818"></ellipse>
+  
+  <path d="M24 13 L36 13" stroke="#a81830" stroke-width="0.7"></path>
+  <path d="M22 13 Q20 10 23 11 M38 13 Q40 10 37 11" stroke="#a81830" stroke-width="0.7" fill="none"></path>
+  <path d="M30 13 L28 18 M30 13 L32 18" stroke="#a81830" stroke-width="0.5"></path>
+  
+  <path d="M23 22 L23 30 Q23 34 26 34 L26 42 Q16 46 16 62 L16 88 Q16 98 30 98 Q44 98 44 88 L44 62 Q44 46 34 42 L34 34 Q37 34 37 30 L37 22 Z" fill="url(#ph-amor-liq)"></path>
+  
+  <g transform="rotate(-15 30 72)">
+    <ellipse cx="30" cy="72" rx="4.5" ry="2.2" fill="#f8d4dc" opacity="0.95"></ellipse>
+    <ellipse cx="30" cy="72" rx="4.5" ry="2.2" fill="none" stroke="#c44a5a" stroke-width="0.3" opacity="0.7"></ellipse>
+    <path d="M26 72 L34 72" stroke="#c44a5a" stroke-width="0.35" opacity="0.65"></path>
+  </g>
+  
+  <path d="M23 22 L23 30 Q23 34 26 34 L26 42 Q16 46 16 62 L16 88 Q16 98 30 98 Q44 98 44 88 L44 62 Q44 46 34 42 L34 34 Q37 34 37 30 L37 22 Z" fill="none" stroke="#d49a3a" stroke-width="0.7"></path>
+  <path d="M20 50 Q18 60 19 80" fill="none" stroke="#fff" stroke-width="1" opacity="0.4"></path>
+  <ellipse cx="22" cy="60" rx="2" ry="6" fill="#fff" opacity="0.18"></ellipse>
+</svg>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Core -->
+<title>Sorcery</title>
+<meta name="description" content="Conjure thyself a stiff drink. A candlelit sorcerer divines cocktails from humble tavern brews to an archmage's vault.">
+<meta name="theme-color" content="#0a0705">
+
+<!-- Favicons -->
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Sorcery">
+<meta property="og:description" content="Conjure thyself a stiff drink.">
+<meta property="og:image" content="https://sorcery.lol/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Sorcery — Conjure thyself a stiff drink">
+<meta property="og:url" content="https://sorcery.lol">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sorcery">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sorcery">
+<meta name="twitter:description" content="Conjure thyself a stiff drink.">
+<meta name="twitter:image" content="https://sorcery.lol/og.png">
+<meta name="twitter:image:alt" content="Sorcery — Conjure thyself a stiff drink">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main class="chamber">
+
+  <!-- Header -->
+  <div class="crest" aria-hidden="true">&#9737;&#9789;&#9791;</div>
+  <h1>Sorcery</h1>
+  <p class="subtitle">An Apothecary of Liquid Enchantments</p>
+  <p class="intro-text">The sorcerer awaits your inquiry. Declare the means of your indulgence and the disposition that besets you this hour. The appropriate elixir shall be divined from the library of a thousand nights.</p>
+
+  <!-- STATE: INQUIRY -->
+  <section id="state-inquiry" class="state active" role="form" aria-label="Choose your tier and mood">
+
+    <div class="section-title"><span>I &middot; THE SHELF</span></div>
+
+    <fieldset class="option-row" id="tier-row">
+      <legend class="sr-only">Choose your budget tier</legend>
+
+      <label class="option option--tier" data-tier="tavern">
+        <input type="radio" name="tier" value="tavern">
+        <figure>
+          <img src="assets/bottle-tavern.svg" alt="Tavern Brew" class="bottle">
+          <figcaption>
+            <span class="tier-name">Tavern Brew</span>
+            <span class="tier-hint">a few coppers, well-spent</span>
+          </figcaption>
+        </figure>
+      </label>
+
+      <label class="option option--tier" data-tier="merchant">
+        <input type="radio" name="tier" value="merchant">
+        <figure>
+          <img src="assets/bottle-merchant.svg" alt="Merchant's Reserve" class="bottle">
+          <figcaption>
+            <span class="tier-name">Merchant's Reserve</span>
+            <span class="tier-hint">fair coin, fine craft</span>
+          </figcaption>
+        </figure>
+      </label>
+
+      <label class="option option--tier" data-tier="alchemist">
+        <input type="radio" name="tier" value="alchemist">
+        <figure>
+          <img src="assets/bottle-alchemist.svg" alt="Alchemist's Cabinet" class="bottle">
+          <figcaption>
+            <span class="tier-name">Alchemist's Cabinet</span>
+            <span class="tier-hint">a sovereign or three</span>
+          </figcaption>
+        </figure>
+      </label>
+
+      <label class="option option--tier" data-tier="archmage">
+        <input type="radio" name="tier" value="archmage">
+        <figure>
+          <img src="assets/bottle-archmage.svg" alt="Archmage's Vault" class="bottle">
+          <figcaption>
+            <span class="tier-name">Archmage's Vault</span>
+            <span class="tier-hint">price spoken in whispers</span>
+          </figcaption>
+        </figure>
+      </label>
+    </fieldset>
+
+    <div class="shelf-rule"></div>
+
+    <p class="connective">Now choose the spirit within</p>
+
+    <div class="section-title"><span>II &middot; THE PHIALS</span></div>
+
+    <fieldset class="option-row" id="mood-row">
+      <legend class="sr-only">Choose your mood</legend>
+
+      <label class="option option--mood">
+        <input type="radio" name="mood" value="brooding">
+        <figure>
+          <img src="assets/phial-brooding.svg" alt="Brooding" class="phial">
+          <figcaption>
+            <span class="mood-name">Brooding</span>
+            <span class="mood-hint">smoke &amp; shadow</span>
+          </figcaption>
+        </figure>
+      </label>
+
+      <label class="option option--mood">
+        <input type="radio" name="mood" value="celebratory">
+        <figure>
+          <img src="assets/phial-celebratory.svg" alt="Celebratory" class="phial">
+          <figcaption>
+            <span class="mood-name">Celebratory</span>
+            <span class="mood-hint">effervescent</span>
+          </figcaption>
+        </figure>
+      </label>
+
+      <label class="option option--mood">
+        <input type="radio" name="mood" value="contemplative">
+        <figure>
+          <img src="assets/phial-contemplative.svg" alt="Contemplative" class="phial">
+          <figcaption>
+            <span class="mood-name">Contemplative</span>
+            <span class="mood-hint">slow &amp; deliberate</span>
+          </figcaption>
+        </figure>
+      </label>
+
+      <label class="option option--mood">
+        <input type="radio" name="mood" value="amorous">
+        <figure>
+          <img src="assets/phial-amorous.svg" alt="Amorous" class="phial">
+          <figcaption>
+            <span class="mood-name">Amorous</span>
+            <span class="mood-hint">sweet &amp; perilous</span>
+          </figcaption>
+        </figure>
+      </label>
+
+      <label class="option option--mood">
+        <input type="radio" name="mood" value="courageous">
+        <figure>
+          <img src="assets/phial-courageous.svg" alt="Courageous" class="phial">
+          <figcaption>
+            <span class="mood-name">Courageous</span>
+            <span class="mood-hint">fire in the belly</span>
+          </figcaption>
+        </figure>
+      </label>
+
+      <label class="option option--mood">
+        <input type="radio" name="mood" value="weary">
+        <figure>
+          <img src="assets/phial-weary.svg" alt="Weary" class="phial">
+          <figcaption>
+            <span class="mood-name">Weary</span>
+            <span class="mood-hint">balm for long roads</span>
+          </figcaption>
+        </figure>
+      </label>
+    </fieldset>
+
+    <button id="cast" type="button" disabled><span class="sigil-fleur">&#9876;</span> Consult the Sorcerer <span class="sigil-fleur">&#9876;</span></button>
+
+    <p class="prudence">IMBIBE WITH PRUDENCE &middot; XXI &amp; ABOVE</p>
+    <p class="footer">the sorcerer practices flavour, not counsel.</p>
+  </section>
+
+  <!-- STATE: DIVINING -->
+  <section id="state-divining" class="state divining-section" aria-live="polite">
+    <div class="rune-ring" id="rune-ring"></div>
+    <p class="divining-phrase" id="divining-phrase"></p>
+    <p class="divining-sub">pray the spirits answer kindly</p>
+  </section>
+
+  <!-- STATE: RESULT -->
+  <section id="state-result" class="state" aria-live="polite">
+    <div class="scroll">
+      <div class="corner-tr"></div>
+      <div class="corner-bl"></div>
+
+      <div class="scroll-sigil" aria-hidden="true">&#9876;</div>
+      <h2 class="mystical-name" id="r-mystical"></h2>
+      <p class="real-name" id="r-real"></p>
+      <p class="result-tagline" id="r-tagline"></p>
+
+      <div class="scroll-divider"><span>&#9883; &nbsp; &#9884; &nbsp; &#9885;</span></div>
+
+      <p class="scroll-label">&mdash; Reagents &mdash;</p>
+      <ul class="reagents" id="r-reagents"></ul>
+
+      <p class="scroll-label">&mdash; The Incantation &mdash;</p>
+      <ol class="incantation" id="r-incantation"></ol>
+
+      <div class="vessel-grid" id="r-vessel-grid">
+        <div>
+          <div class="vessel-cell-label">VESSEL</div>
+          <div class="vessel-cell-value" id="r-glassware"></div>
+        </div>
+        <div>
+          <div class="vessel-cell-label">ADORNMENT</div>
+          <div class="vessel-cell-value" id="r-garnish"></div>
+        </div>
+      </div>
+
+      <p class="scroll-label">&mdash; The Omen &mdash;</p>
+      <div class="omen" id="r-omen"></div>
+
+      <p class="cost-mark">
+        <span class="cost-mark-label">Tribute to the spirits &nbsp;&middot;&nbsp; </span>
+        <span class="cost-mark-value" id="r-cost"></span>
+      </p>
+
+      <!-- Oracle Section -->
+      <div class="oracle-section" id="oracle-section">
+        <p class="oracle-label">&mdash; The Drunken Oracle speaks &mdash;</p>
+        <button id="oracle-btn" type="button">Rouse the Drunken Oracle</button>
+        <div class="oracle-loading" id="oracle-loading">
+          <p class="oracle-loading-phrase" id="oracle-loading-phrase"></p>
+        </div>
+        <div class="oracle-panel" id="oracle-panel"></div>
+        <div class="oracle-error" id="oracle-error"></div>
+      </div>
+
+      <button id="reset-btn" type="button">&mdash; Divine Another Elixir &mdash;</button>
+    </div>
+  </section>
+
+</main>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

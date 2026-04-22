@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 110">
+  <defs>
+    <linearGradient id="ph-brood-liq" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7d241a"></stop>
+      <stop offset="0.4" stop-color="#3a0f08"></stop>
+      <stop offset="1" stop-color="#0a0200"></stop>
+    </linearGradient>
+  </defs>
+  
+  <rect x="22" y="6" width="16" height="14" fill="#1f0a06" rx="1"></rect>
+  <ellipse cx="30" cy="6" rx="8" ry="2" fill="#2a1208"></ellipse>
+  
+  <path d="M22 18 Q20 24 22 30 L24 20 Z" fill="#4a130d"></path>
+  <path d="M38 18 Q40 22 38 26 L36 20 Z" fill="#4a130d"></path>
+  
+  <path d="M18 22 L18 30 Q18 36 24 36 L24 88 Q24 98 30 98 Q36 98 36 88 L36 36 Q42 36 42 30 L42 22 Z" fill="url(#ph-brood-liq)"></path>
+  
+  <path d="M18 22 L18 30 Q18 36 24 36 L24 88 Q24 98 30 98 Q36 98 36 88 L36 36 Q42 36 42 30 L42 22 Z" fill="none" stroke="#d49a3a" stroke-width="0.7"></path>
+  <path d="M21 28 Q21 34 26 36 L26 84" fill="none" stroke="#fff" stroke-width="0.8" opacity="0.15"></path>
+</svg>

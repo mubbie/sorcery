@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="bg" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#1a0f08"></stop>
+      <stop offset="0.6" stop-color="#0a0705"></stop>
+      <stop offset="1" stop-color="#000"></stop>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f5c96b" stop-opacity="0.35"></stop>
+      <stop offset="1" stop-color="#f5c96b" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+
+  <!-- Dark candlelit background with subtle glow -->
+  <rect width="64" height="64" rx="10" fill="url(#bg)"></rect>
+  <circle cx="32" cy="32" r="24" fill="url(#glow)"></circle>
+
+  <!-- Thin gold border -->
+  <rect x="2" y="2" width="60" height="60" rx="9" fill="none" stroke="#d49a3a" stroke-width="1.2" opacity="0.6"></rect>
+  <rect x="5" y="5" width="54" height="54" rx="7" fill="none" stroke="#d49a3a" stroke-width="0.5" opacity="0.4"></rect>
+
+  <!-- The S, drawn as a bold serif letterform with spurs/embellishments -->
+  <!-- Main S body -->
+  <path d="
+    M 44 20
+    Q 44 14 36 14
+    L 28 14
+    Q 18 14 18 22
+    Q 18 30 26 32
+    L 38 34
+    Q 46 36 46 44
+    Q 46 50 36 50
+    L 28 50
+    Q 20 50 20 44
+  "
+  fill="none"
+  stroke="#f5c96b"
+  stroke-width="5.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"></path>
+
+  <!-- Top serif -->
+  <rect x="24" y="12" width="16" height="2.5" fill="#f5c96b" rx="0.5"></rect>
+  <!-- Bottom serif -->
+  <rect x="24" y="49.5" width="16" height="2.5" fill="#f5c96b" rx="0.5"></rect>
+
+  <!-- Tiny alchemical dot accents -->
+  <circle cx="10" cy="10" r="0.8" fill="#f5c96b" opacity="0.7"></circle>
+  <circle cx="54" cy="10" r="0.8" fill="#f5c96b" opacity="0.7"></circle>
+  <circle cx="10" cy="54" r="0.8" fill="#f5c96b" opacity="0.7"></circle>
+  <circle cx="54" cy="54" r="0.8" fill="#f5c96b" opacity="0.7"></circle>
+</svg>

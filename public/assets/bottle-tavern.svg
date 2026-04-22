@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 130">
+  <defs>
+    <linearGradient id="tj-body" x1="0" x2="1">
+      <stop offset="0" stop-color="#5a3d28"></stop>
+      <stop offset="0.5" stop-color="#6d4a30"></stop>
+      <stop offset="1" stop-color="#3a2818"></stop>
+    </linearGradient>
+    <radialGradient id="tj-stain" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2a1208" stop-opacity="0.75"></stop>
+      <stop offset="0.7" stop-color="#2a1208" stop-opacity="0.35"></stop>
+      <stop offset="1" stop-color="#2a1208" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+  
+  <path d="M36 22 Q36 19 40 19 L50 19 Q54 20 54 22 L52 30 L38 30 Z" fill="#5a4528" stroke="#2a1f15" stroke-width="0.5"></path>
+  <path d="M37 22 L53 22" stroke="#3a2a1a" stroke-width="0.3" opacity="0.6"></path>
+  
+  <path d="M32 30 Q31 34 32 38 L32 44 Q20 52 19 74 L20 112 Q20 124 30 124 L60 124 Q70 124 70 112 L71 74 Q70 52 58 44 L58 38 Q59 34 58 30 Z" fill="url(#tj-body)" stroke="#2a1f15" stroke-width="0.7"></path>
+  
+  <g fill="#2a1a0e" opacity="0.55">
+    <circle cx="28" cy="58" r="0.7"></circle><circle cx="36" cy="64" r="0.5"></circle>
+    <circle cx="44" cy="56" r="0.6"></circle><circle cx="52" cy="70" r="0.5"></circle>
+    <circle cx="60" cy="60" r="0.7"></circle><circle cx="30" cy="80" r="0.5"></circle>
+    <circle cx="50" cy="84" r="0.6"></circle><circle cx="40" cy="100" r="0.5"></circle>
+    <circle cx="58" cy="100" r="0.7"></circle><circle cx="26" cy="96" r="0.5"></circle>
+    <circle cx="34" cy="110" r="0.6"></circle><circle cx="48" cy="114" r="0.5"></circle>
+  </g>
+  
+  <ellipse cx="48" cy="56" rx="14" ry="8" fill="url(#tj-stain)"></ellipse>
+  <ellipse cx="36" cy="50" rx="6" ry="3" fill="url(#tj-stain)" opacity="0.7"></ellipse>
+  
+  <path d="M70 60 Q82 64 82 82 Q82 100 70 104" fill="none" stroke="#3a2818" stroke-width="4" stroke-linecap="round"></path>
+  <path d="M70 60 Q82 64 82 82 Q82 100 70 104" fill="none" stroke="#5a3d28" stroke-width="2" stroke-linecap="round"></path>
+  <path d="M72 62 Q80 66 81 80" fill="none" stroke="#2a1a0e" stroke-width="0.3" opacity="0.6"></path>
+  
+  <g transform="rotate(-3 45 90)">
+    <path d="M24 78 L64 77 L66 104 L26 105 Z" fill="#d8c89c" stroke="#6a5028" stroke-width="0.4"></path>
+    <path d="M26 81 L64 80" stroke="#6a5028" stroke-width="0.2" opacity="0.5"></path>
+    <text x="45" y="90" text-anchor="middle" font-family="&#39;IM Fell English SC&#39;, serif" font-size="6" fill="#3a2a1a" textLength="28" lengthAdjust="spacingAndGlyphs">A FEW</text>
+    <text x="45" y="99" text-anchor="middle" font-family="&#39;IM Fell English SC&#39;, serif" font-size="6" fill="#3a2a1a" textLength="28" lengthAdjust="spacingAndGlyphs">COINS</text>
+  </g>
+  
+  <path d="M42 30 L44 32 L46 30" fill="#2a1208" opacity="0.7"></path>
+</svg>

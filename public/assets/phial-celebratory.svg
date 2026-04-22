@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 110">
+  <defs>
+    <linearGradient id="ph-cele-liq" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff4c8"></stop>
+      <stop offset="0.5" stop-color="#f5e089"></stop>
+      <stop offset="1" stop-color="#d49a3a"></stop>
+    </linearGradient>
+  </defs>
+  
+  <rect x="22" y="6" width="16" height="14" fill="#d49a3a"></rect>
+  <rect x="22" y="6" width="16" height="14" fill="url(#ph-cele-liq)" opacity="0.6"></rect>
+  <path d="M22 9 L38 9 M22 13 L38 13 M22 17 L38 17" stroke="#8a6a20" stroke-width="0.3" opacity="0.6"></path>
+  <ellipse cx="30" cy="6" rx="8" ry="2" fill="#f5c96b"></ellipse>
+  
+  <path d="M20 22 L20 28 Q20 34 26 34 L26 90 Q26 98 30 98 Q34 98 34 90 L34 34 Q40 34 40 28 L40 22 Z" fill="url(#ph-cele-liq)"></path>
+  
+  <g>
+    <circle cx="28" cy="70" r="1.1" fill="#fff" opacity="0.85"></circle>
+    <circle cx="32" cy="76" r="0.8" fill="#fff" opacity="0.8"></circle>
+    <circle cx="30" cy="60" r="0.6" fill="#fff" opacity="0.9"></circle>
+    <circle cx="27" cy="82" r="0.7" fill="#fff" opacity="0.75"></circle>
+    <circle cx="33" cy="86" r="0.5" fill="#fff" opacity="0.9"></circle>
+    
+    <circle cx="26" cy="50" r="0.7" fill="#fff4c8" opacity="0.9"></circle>
+    <circle cx="34" cy="56" r="0.5" fill="#fff4c8" opacity="0.85"></circle>
+    <circle cx="30" cy="46" r="0.9" fill="#fff4c8" opacity="0.95"></circle>
+    <circle cx="27" cy="64" r="0.6" fill="#fff4c8" opacity="0.9"></circle>
+  </g>
+  
+  <path d="M20 22 L20 28 Q20 34 26 34 L26 90 Q26 98 30 98 Q34 98 34 90 L34 34 Q40 34 40 28 L40 22 Z" fill="none" stroke="#d49a3a" stroke-width="0.7"></path>
+  <path d="M23 30 Q23 36 26 38 L26 86" fill="none" stroke="#fff" stroke-width="0.8" opacity="0.35"></path>
+</svg>
