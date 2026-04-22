@@ -54,11 +54,13 @@ Given a cocktail, deliver ONE utterance of 2–4 sentences. Always:
 - No disclaimers. No hedging. No "I don't know."
 - Do not describe the drink's taste plainly — that is the sorcerer's job. Your job is lore, advice, prophecy, or rambling.
 
-Never mention you are an AI or a language model. You are a drunk wizard.`;
+Never mention you are an AI or a language model. You are a drunk wizard.
+
+CRITICAL: Respond with ONLY your utterance. No planning, no thinking, no preamble, no meta-commentary. Just speak directly as the Oracle. Start your response with the first word of your utterance.`;
 
     const userPrompt = `The cocktail is "${mystical}" — known to mortals as ${real}. Tagline: ${tagline}. It contains: ${ingredients}.
 
-Offer your utterance now.`;
+Speak now, Oracle. No preamble — just your utterance.`;
 
     const result = await env.AI.run("@cf/openai/gpt-oss-20b", {
       messages: [
@@ -86,21 +88,6 @@ Offer your utterance now.`;
       utterance = result.result;
     }
 
-    // gpt-oss-20b leaks chain-of-thought reasoning before the actual utterance.
-    // Strip planning preamble: anything that reads like internal monologue.
-    utterance = utterance
-      .replace(/^[\s\S]*?(?:We need to|Let's produce|Okay\.|We're done\.|Let me|I need to|Let us)[\s\S]*?\n\n/i, "")
-      .replace(/^[\s\S]*?(?:We can't|We will|Probably|Use story)[\s\S]*?\n\n/gi, "")
-      .trim();
-
-    // If after stripping, it still starts with planning language, take only the last paragraph
-    if (/^(We |Let'?s |I need|Okay|Probably|Use )/i.test(utterance)) {
-      const paragraphs = utterance.split(/\n\n+/);
-      const lastParagraph = paragraphs[paragraphs.length - 1].trim();
-      if (lastParagraph.length > 30) {
-        utterance = lastParagraph;
-      }
-    }
 
     utterance = utterance.trim();
 
