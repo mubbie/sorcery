@@ -68,6 +68,8 @@ export async function summonOracle() {
         mystical_name: cocktail.mystical_name,
         real_name: cocktail.real_name,
         tagline: cocktail.tagline,
+        tier: cocktail.tier,
+        mood: cocktail.moods?.[0] || '',
         ingredients: cocktail.ingredients
       })
     });
