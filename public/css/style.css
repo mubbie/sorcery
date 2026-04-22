@@ -252,10 +252,10 @@ h1 {
   max-width: 680px;
 }
 
-/* Phials — consistent card width to fit longest label ("CONTEMPLATIVE") */
-.option--mood { width: 120px; flex-shrink: 0; }
-.option--mood figure { min-width: 100%; }
-.option--mood .phial { height: 130px; width: auto; display: block; margin: 0 auto; }
+/* Phials — all cards same width, frame always present (transparent when unselected) */
+.option--mood { width: 110px; flex: 0 0 110px; }
+.option--mood figure { padding: 12px 8px 8px; }
+.option--mood .phial { height: 110px; width: auto; display: block; margin: 0 auto; }
 
 /* FIX #4: Disable ligatures */
 .option--mood .mood-name {
@@ -843,8 +843,8 @@ h1 {
   .option--tier .tier-name { font-size: 11px; }
   .option--tier .tier-hint { font-size: 11px; }
 
-  .option--mood { width: 95px; }
-  .option--mood .phial { height: 90px; }
+  .option--mood { width: 90px; flex: 0 0 90px; }
+  .option--mood .phial { height: 75px; }
   .option--mood .mood-name { font-size: 10px; }
   .option--mood .mood-hint { font-size: 10px; }
 
