@@ -15,15 +15,15 @@ export default {
       return json({ error: "Not found" }, 404);
     }
 
-    const response = await env.ASSETS.fetch(request);
-    if (response.status === 404) {
-      const notFound = await env.ASSETS.fetch(new URL('/404.html', request.url));
-      return new Response(notFound.body, {
-        status: 404,
-        headers: notFound.headers
-      });
+    try {
+      const response = await env.ASSETS.fetch(request);
+      if (response.status === 404) {
+        return serve404(request, env);
+      }
+      return response;
+    } catch {
+      return serve404(request, env);
     }
-    return response;
   }
 };
 
@@ -122,6 +122,18 @@ Deliver your line.`;
   } catch (err) {
     console.error("handleOracle:", err);
     return json({ error: "The oracle has passed out." }, 500);
+  }
+}
+
+async function serve404(request, env) {
+  try {
+    const page = await env.ASSETS.fetch(new Request(new URL('/404.html', request.url)));
+    return new Response(page.body, {
+      status: 404,
+      headers: { 'content-type': 'text/html;charset=UTF-8' }
+    });
+  } catch {
+    return new Response('Not found', { status: 404 });
   }
 }
 
