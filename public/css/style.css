@@ -195,18 +195,20 @@ h1 {
 
 .option figure {
   padding: 12px 10px 8px;
+}
+
+/* Selection and hover states on the label itself, not the figure */
+.option {
   border: 1px solid transparent;
   border-radius: 4px;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  padding: 4px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.25s ease;
 }
 
-.option:hover { transform: translateY(-2px); }
-.option:hover figure {
-  box-shadow: 0 4px 16px rgba(212,154,58,0.15);
-}
+.option:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(212,154,58,0.15); }
 
 /* Selected state — gentle, not dramatic */
-.option input:checked + figure {
+.option:has(input:checked) {
   border-color: var(--candle-deep);
   box-shadow:
     0 0 0 1px var(--candle-deep),
@@ -214,7 +216,7 @@ h1 {
 }
 
 /* Focus state (keyboard) */
-.option input:focus-visible + figure {
+.option:has(input:focus-visible) {
   border-color: var(--candle);
   outline: 2px solid var(--candle);
   outline-offset: 2px;
