@@ -60,13 +60,13 @@ Never mention you are an AI or a language model. You are a drunk wizard.`;
 
 Offer your utterance now.`;
 
-    const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
+    const result = await env.AI.run("@cf/openai/gpt-oss-20b", {
       messages: [
         { role: "system", content: systemPrompt },
         { role: "user", content: userPrompt }
       ],
       max_tokens: 220,
-      temperature: 0.9
+      temperature: 1.0
     });
 
     // Workers AI can return the text in several shapes across models — handle all
@@ -79,9 +79,27 @@ Offer your utterance now.`;
       utterance = result.result.response;
     } else if (Array.isArray(result?.choices) && result.choices.length > 0) {
       const msg = result.choices[0].message;
+      // gpt-oss-20b is a reasoning model: actual output may land in content,
+      // or the model may dump everything into reasoning_content.
       utterance = msg?.content || msg?.reasoning_content || "";
     } else if (result?.result && typeof result.result === "string") {
       utterance = result.result;
+    }
+
+    // gpt-oss-20b leaks chain-of-thought reasoning before the actual utterance.
+    // Strip planning preamble: anything that reads like internal monologue.
+    utterance = utterance
+      .replace(/^[\s\S]*?(?:We need to|Let's produce|Okay\.|We're done\.|Let me|I need to|Let us)[\s\S]*?\n\n/i, "")
+      .replace(/^[\s\S]*?(?:We can't|We will|Probably|Use story)[\s\S]*?\n\n/gi, "")
+      .trim();
+
+    // If after stripping, it still starts with planning language, take only the last paragraph
+    if (/^(We |Let'?s |I need|Okay|Probably|Use )/i.test(utterance)) {
+      const paragraphs = utterance.split(/\n\n+/);
+      const lastParagraph = paragraphs[paragraphs.length - 1].trim();
+      if (lastParagraph.length > 30) {
+        utterance = lastParagraph;
+      }
     }
 
     utterance = utterance.trim();
