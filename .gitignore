@@ -1,5 +1,36 @@
+# Dependencies
 node_modules/
+package-lock.json
+
+# Cloudflare
 .wrangler/
 .dev.vars
+
+# Secrets
 .env
+.env.*
+*.pem
+*.key
+
+# OS
 .DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude Code
+.claude/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build artifacts
+dist/
+.cache/
