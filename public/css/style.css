@@ -743,20 +743,32 @@ h1 {
   display: none;
   max-width: 540px;
   margin: 16px auto 0;
-  padding: 24px 28px;
+  padding: 24px 32px;
   transform: rotate(-0.8deg);
-  filter: blur(0.25px);
-  border-left: 2px solid var(--candle-deep);
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6;
   color: var(--candle-deep);
   letter-spacing: 0.02em;
   animation: sway 6s ease-in-out infinite;
-  text-align: left;
+  text-align: center;
+  position: relative;
 }
 .oracle-panel.active { display: block; }
+
+.oracle-quote-open,
+.oracle-quote-close {
+  font-family: 'Cinzel Decorative', serif;
+  font-style: normal;
+  font-size: 36px;
+  color: var(--candle);
+  opacity: 0.6;
+  line-height: 1;
+  vertical-align: text-top;
+}
+.oracle-quote-open { margin-right: 6px; }
+.oracle-quote-close { margin-left: 6px; }
 
 @keyframes sway {
   0%, 100% { transform: rotate(-0.8deg) translateX(0); }

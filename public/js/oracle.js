@@ -1,6 +1,7 @@
 /* Sorcery — Drunken Oracle */
 
 import { getCurrentCocktail } from './divination.js';
+import { esc } from './helpers.js';
 
 // In-character error messages from PLAN §9 that the server may return.
 // If the server sends one of these, we pass it through to the user as-is.
@@ -84,7 +85,9 @@ export async function summonOracle() {
     }
 
     const panel = document.getElementById('oracle-panel');
-    panel.textContent = '\u2014 ' + data.utterance;
+    panel.innerHTML = '<span class="oracle-quote-open">\u201C</span>'
+        + esc(data.utterance)
+        + '<span class="oracle-quote-close">\u201D</span>';
     panel.classList.add('active');
   } catch (err) {
     // NEVER expose raw JS error messages to the user.
