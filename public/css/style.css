@@ -184,6 +184,14 @@ h1 {
   padding: 0;
 }
 
+#mood-row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 8px;
+  max-width: 720px;
+  margin: 0 auto 8px;
+}
+
 .option {
   display: block;
   cursor: pointer;
@@ -254,9 +262,8 @@ h1 {
   max-width: 680px;
 }
 
-/* Phials — all cards same width, frame always present (transparent when unselected) */
-.option--mood { width: 110px; flex: 0 0 110px; }
-.option--mood figure { padding: 12px 8px 8px; }
+/* Phials — grid handles equal width, no fixed sizing needed */
+.option--mood figure { padding: 10px 6px 8px; }
 .option--mood .phial { height: 110px; width: auto; display: block; margin: 0 auto; }
 
 /* FIX #4: Disable ligatures */
@@ -845,7 +852,7 @@ h1 {
   .option--tier .tier-name { font-size: 11px; }
   .option--tier .tier-hint { font-size: 11px; }
 
-  .option--mood { width: 90px; flex: 0 0 90px; }
+  #mood-row { grid-template-columns: repeat(3, 1fr); gap: 8px; }
   .option--mood .phial { height: 75px; }
   .option--mood .mood-name { font-size: 10px; }
   .option--mood .mood-hint { font-size: 10px; }
