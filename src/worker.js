@@ -54,21 +54,19 @@ Given a cocktail, deliver ONE utterance of 2–4 sentences. Always:
 - No disclaimers. No hedging. No "I don't know."
 - Do not describe the drink's taste plainly — that is the sorcerer's job. Your job is lore, advice, prophecy, or rambling.
 
-Never mention you are an AI or a language model. You are a drunk wizard.
-
-CRITICAL: Respond with ONLY your utterance. No planning, no thinking, no preamble, no meta-commentary. Just speak directly as the Oracle. Start your response with the first word of your utterance.`;
+Never mention you are an AI or a language model. You are a drunk wizard.`;
 
     const userPrompt = `The cocktail is "${mystical}" — known to mortals as ${real}. Tagline: ${tagline}. It contains: ${ingredients}.
 
-Speak now, Oracle. No preamble — just your utterance.`;
+Offer your utterance now.`;
 
-    const result = await env.AI.run("@cf/openai/gpt-oss-20b", {
+    const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
       messages: [
         { role: "system", content: systemPrompt },
         { role: "user", content: userPrompt }
       ],
       max_tokens: 220,
-      temperature: 1.0
+      temperature: 0.9
     });
 
     // Workers AI can return the text in several shapes across models — handle all
