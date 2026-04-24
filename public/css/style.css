@@ -828,6 +828,38 @@ h1 {
 }
 
 /* ═══════════════════════════════════════
+   14b. Share / Result Actions
+   ═══════════════════════════════════════ */
+.result-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+#share-btn {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--candle);
+  background: transparent;
+  border: 1px solid rgba(201, 168, 110, 0.3);
+  border-radius: 2px;
+  padding: 10px 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+#share-btn:hover {
+  border-color: var(--candle);
+  color: var(--parchment);
+}
+#share-btn:focus-visible {
+  outline: 2px solid var(--candle);
+  outline-offset: 3px;
+}
+
+/* ═══════════════════════════════════════
    15. Reduced Motion
    ═══════════════════════════════════════ */
 @media (prefers-reduced-motion: reduce) {

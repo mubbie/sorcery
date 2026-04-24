@@ -90,6 +90,24 @@ function renderCocktail(c) {
   document.getElementById('r-cost').textContent = c.cost_estimate;
 
   resetOracle();
+
+  // Update URL to shareable link
+  const url = new URL(window.location);
+  url.search = '';
+  url.searchParams.set('drink', c.id);
+  window.history.replaceState(null, '', url);
+}
+
+export function handleDirectDrink(drinkId) {
+  const cocktails = getCocktails();
+  const drink = cocktails.find(c => c.id === drinkId);
+  if (!drink) return false;
+
+  currentCocktail = drink;
+  lastShownId = drink.id;
+  transitionTo('result');
+  renderCocktail(drink);
+  return true;
 }
 
 export async function handleCast() {
@@ -127,5 +145,6 @@ export function handleReset() {
   document.querySelectorAll('input[name="mood"]').forEach(r => r.checked = false);
   document.getElementById('cast').disabled = true;
   transitionTo('inquiry');
+  window.history.replaceState(null, '', window.location.pathname);
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
